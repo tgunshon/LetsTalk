@@ -1,0 +1,694 @@
+{
+   "Class": "{9BFD5B6B-27CD-4547-A220-919423E4F904}",
+   "ControlId": "PROIVTREE",
+   "Description": "",
+   "FileDescription": "PROIVTree ActiveX Control module (v1.0)",
+   "HelpFile": "",
+   "ImplementationFile": "C:\\55r205\\PROIVT~1.OCX",
+   "IsJavaScript": "false",
+   "Meta": {
+      "Type": "p4ax",
+      "Version": "1"
+   },
+   "Name": "PROIV Tree Control",
+   "ProgramId": "PROIV.Tree",
+   "PropertyMethods": [
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnClick",
+         "NumericDataType": 24,
+         "OSId": "1",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall OnClick(BSTR RowData);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnSelChanged",
+         "NumericDataType": 24,
+         "OSId": "2",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall OnSelChanged(BSTR RowData);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DblClick",
+         "NumericDataType": 24,
+         "OSId": "3",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall DblClick(BSTR RowData);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnMenuClicked",
+         "NumericDataType": 24,
+         "OSId": "4",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Name",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall OnMenuClicked(BSTR Name);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnRightClick",
+         "NumericDataType": 24,
+         "OSId": "5",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall OnRightClick(BSTR RowData);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AboutBox",
+         "NumericDataType": 24,
+         "OSId": "-552",
+         "Prototype": "void _stdcall AboutBox(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InsertRowAfter",
+         "NumericDataType": 3,
+         "OSId": "10",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "InsertAfter",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowData",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "long _stdcall InsertRowAfter(long InsertAfter, BSTR RowData);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InsertRowSort",
+         "NumericDataType": 3,
+         "OSId": "11",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "InsertAfter",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowData",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "long _stdcall InsertRowSort(long InsertAfter, BSTR RowData);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DeleteRow",
+         "NumericDataType": 24,
+         "OSId": "12",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowID",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall DeleteRow(long RowID);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Sort",
+         "NumericDataType": 24,
+         "OSId": "13",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "TreeItem",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall Sort(long TreeItem);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DeleteAll",
+         "NumericDataType": 24,
+         "OSId": "14",
+         "Prototype": "void _stdcall DeleteAll(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FindByData",
+         "NumericDataType": 3,
+         "OSId": "15",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "long _stdcall FindByData(BSTR RowData);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetItemText",
+         "NumericDataType": 24,
+         "OSId": "16",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Handle",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "sText",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall SetItemText(long Handle, BSTR sText);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetItemImage",
+         "NumericDataType": 24,
+         "OSId": "17",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Handle",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Image",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall SetItemImage(long Handle, BSTR Image);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelectItem",
+         "NumericDataType": 24,
+         "OSId": "18",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Handle",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall SelectItem(long Handle);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AppendMenu",
+         "NumericDataType": 24,
+         "OSId": "19",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "TildaSeparatedList",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall AppendMenu(BSTR TildaSeparatedList);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EnableMenu",
+         "NumericDataType": 24,
+         "OSId": "20",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Name",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Show",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall EnableMenu(BSTR Name, boolean Show);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ShowMenu",
+         "NumericDataType": 24,
+         "OSId": "21",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Name",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Show",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall ShowMenu(BSTR Name, boolean Show);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CheckMenu",
+         "NumericDataType": 24,
+         "OSId": "22",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Name",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Check",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall CheckMenu(BSTR Name, boolean Check);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetSelectedCount",
+         "NumericDataType": 3,
+         "OSId": "23",
+         "Prototype": "long _stdcall GetSelectedCount(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetFirstSelectedItemData",
+         "NumericDataType": 8,
+         "OSId": "24",
+         "Prototype": "BSTR _stdcall GetFirstSelectedItemData(void);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetNextSelectedItemData",
+         "NumericDataType": 8,
+         "OSId": "25",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Previous",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "BSTR _stdcall GetNextSelectedItemData(long Previous);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AddRowEx",
+         "NumericDataType": 24,
+         "OSId": "28",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall AddRowEx(BSTR RowData);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetFirstSelectedIndex",
+         "NumericDataType": 3,
+         "OSId": "29",
+         "Prototype": "long _stdcall GetFirstSelectedIndex(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetLastSelectedIndex",
+         "NumericDataType": 3,
+         "OSId": "30",
+         "Prototype": "long _stdcall GetLastSelectedIndex(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Expand",
+         "NumericDataType": 24,
+         "OSId": "4",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "TreeItem",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall Expand(long TreeItem);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Contract",
+         "NumericDataType": 24,
+         "OSId": "5",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "TreeItem",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall Contract(long TreeItem);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ExpandAll",
+         "NumericDataType": 24,
+         "OSId": "6",
+         "Prototype": "void _stdcall ExpandAll(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CollapseAll",
+         "NumericDataType": 24,
+         "OSId": "7",
+         "Prototype": "void _stdcall CollapseAll(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AddRow",
+         "NumericDataType": 3,
+         "OSId": "8",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowData",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "long _stdcall AddRow(BSTR RowData);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InsertRowBefore",
+         "NumericDataType": 3,
+         "OSId": "9",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "InsertAfter",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowData",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "long _stdcall InsertRowBefore(long InsertAfter, BSTR RowData);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "BackColor",
+         "NumericDataType": 29,
+         "OSId": "-501",
+         "Prototype": "OLE_COLOR BackColor",
+         "StringDataType": "OLE_COLOR",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ImageListGraphic",
+         "NumericDataType": 8,
+         "OSId": "1",
+         "Prototype": "BSTR ImageListGraphic",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GraphicsFolder",
+         "NumericDataType": 8,
+         "OSId": "2",
+         "Prototype": "BSTR GraphicsFolder",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EnableRightClickMenu",
+         "NumericDataType": 11,
+         "OSId": "26",
+         "Prototype": "boolean EnableRightClickMenu",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EnableMultiSelection",
+         "NumericDataType": 11,
+         "OSId": "27",
+         "Prototype": "boolean EnableMultiSelection",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Delimiter",
+         "NumericDataType": 8,
+         "OSId": "3",
+         "Prototype": "BSTR Delimiter",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      }
+   ]
+}

@@ -1,0 +1,1898 @@
+{
+   "ActiveX": {
+      "EventMap": {"Grid": {"-601": {
+         "EventHandler": "Kernel",
+         "GlobalLogicName": "8",
+         "MapId": ""
+      }}},
+      "InterfaceMap": {"VIPGrid": {
+         "CellType": {
+            "Description": "Map: CellType",
+            "Mappings": [
+               {
+                  "MappingValue": "#ROW",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$COLKEY",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#CELLKIND",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "ColAdd": {
+            "Description": "Map: ColAdd",
+            "Mappings": [{
+               "MappingValue": "$COLKEY",
+               "TextTranslationMaximumLength": 0,
+               "TextTranslationMeaningCode": "",
+               "TextTranslationMode": ""
+            }]
+         },
+         "ColRead": {
+            "Description": "Map: ColRead",
+            "Mappings": [
+               {
+                  "MappingValue": "$COLKEY",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$PROP",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "ColWrite": {
+            "Description": "Map: ColWrite",
+            "Mappings": [
+               {
+                  "MappingValue": "$COLKEY",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$PROP",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$VALUE",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "CurrentValue": {
+            "Description": "Map: CurrentValue",
+            "Mappings": [
+               {
+                  "MappingValue": "#COL",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#ROW",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "ExpandAll": {
+            "Description": "Map: ExpandAll",
+            "Mappings": [{
+               "MappingValue": "#LEVELS",
+               "TextTranslationMaximumLength": 0,
+               "TextTranslationMeaningCode": "",
+               "TextTranslationMode": ""
+            }]
+         },
+         "ExportHTML": {
+            "Description": "Map: ExportHTML",
+            "Mappings": [{
+               "MappingValue": "$TEMPPATH",
+               "TextTranslationMaximumLength": 0,
+               "TextTranslationMeaningCode": "",
+               "TextTranslationMode": ""
+            }]
+         },
+         "GroupAdd": {
+            "Description": "Map: GroupAdd",
+            "Mappings": [
+               {
+                  "MappingValue": "$COLKEY",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#SORTORDER",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#SORTTYPE",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#SHOWFOOTER",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "#DOREFRESH",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "HeadingFontWrite": {
+            "Description": "Map: HeadingFontWrite",
+            "Mappings": [
+               {
+                  "MappingValue": "$PROP",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$VALUE",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "ItemsAdd": {
+            "Description": "Map: ItemsAdd",
+            "Mappings": [
+               {
+                  "MappingValue": "'Function Name'",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "@FUN",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "@FUN",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "''",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "RedrawEnabled": {
+            "Description": "Map: RedrawEnabled",
+            "Mappings": [{
+               "MappingValue": "#REDRAW",
+               "TextTranslationMaximumLength": 0,
+               "TextTranslationMeaningCode": "",
+               "TextTranslationMode": ""
+            }]
+         },
+         "RefreshGroup": {
+            "Description": "Map: RefreshGroup",
+            "Mappings": [{
+               "MappingValue": "#EXPAND",
+               "TextTranslationMaximumLength": 0,
+               "TextTranslationMeaningCode": "",
+               "TextTranslationMode": ""
+            }]
+         },
+         "RowAdd": {
+            "Description": "Map: RowAdd",
+            "Mappings": [
+               {
+                  "MappingValue": "#DATAFORMAT",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$DATA",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "$CELLSEPARATOR",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         },
+         "SizeColumns": {
+            "Description": "Map: SizeColumns",
+            "Mappings": [
+               {
+                  "MappingValue": "1",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               },
+               {
+                  "MappingValue": "3000",
+                  "TextTranslationMaximumLength": 0,
+                  "TextTranslationMeaningCode": "",
+                  "TextTranslationMode": ""
+               }
+            ]
+         }
+      }}
+   },
+   "Analyst": "",
+   "Contents": [
+      {
+         "AlternateFormatTag": "",
+         "CSSClass": "",
+         "Contents": [{
+            "Column": 1,
+            "CycleName": "MainCycle",
+            "HelpMessage": "",
+            "IsEnabled": "true",
+            "IsTabStop": "false",
+            "ObjectCode": "HOLD",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "Row": 1,
+            "TagId": "Hold1",
+            "Type": "Field",
+            "VariableName": "$_hold"
+         }],
+         "CycleEndTag": "Hold1",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "MainCycle",
+         "CycleStartTag": "Hold1",
+         "CycleType": "ManyTime Screen",
+         "DefaultMode": "C",
+         "DetailFormatTag": "",
+         "EODCancelEvent": 0,
+         "FormatTag": "MainCycle",
+         "FunctionKeys": [
+            {
+               "Description": "Grid - Contract All",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 4,
+               "Number": "  33"
+            },
+            {
+               "Description": "Grid - Contract Categories",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 5,
+               "Number": "  34"
+            },
+            {
+               "Description": "Grid - Expand All",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 7,
+               "Number": "  35"
+            },
+            {
+               "Description": "Licensing Information",
+               "FunctionToExecute": "",
+               "GlobalFunction": "@DemoLicensingInformation",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 0,
+               "Number": "  36"
+            },
+            {
+               "Description": "Export Grid to HTML",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 37,
+               "Number": "  37"
+            },
+            {
+               "Description": "Now Unused",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 38,
+               "Number": "  38"
+            },
+            {
+               "Description": "About these demos",
+               "FunctionToExecute": "",
+               "GlobalFunction": "@DemoInformation",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 0,
+               "Number": "  39"
+            },
+            {
+               "Description": "Exit",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 13,
+               "Number": "  60"
+            }
+         ],
+         "GUIBorderEndColumn": 0,
+         "GUIBorderEndRow": 0,
+         "GUIBorderStartColumn": 0,
+         "GUIBorderStartRow": 0,
+         "GUIHeaderEndColumn": 0,
+         "GUIHeaderEndRow": 0,
+         "GUIHeaderStartColumn": 0,
+         "GUIHeaderStartRow": 0,
+         "HelpFileKeyword": "",
+         "IsClearScreen": "true",
+         "IsExpandedPagingHorizontalGrid": "false",
+         "IsExpandedPagingVerticalGrid": "false",
+         "IsNormalPagingHorizontalGrid": "false",
+         "IsNormalPagingVerticalGrid": "false",
+         "IsScaleWallpaper": "false",
+         "IsSortPass": "",
+         "IsSuppressAccessToAugmentedLookupFieldsInDeleteMode": "",
+         "IsSuppressBorder": "false",
+         "IsSuppressConfirmationOnDelete": "",
+         "IsSuppressGUIBorder": "false",
+         "IsWallpaperFilenameRequired": "true",
+         "IterationCounter": "",
+         "LastFileNumber": "",
+         "LastReadFieldTag": "",
+         "LineNumberPrompt": "",
+         "LineNumberToDisplayScreenMode": 0,
+         "MouseNavigationAllowed": "false",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 1,
+         "ScreenModesAllowed": "C",
+         "ScreenTitle": "",
+         "StaticObjects": [
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": -1,
+               "Graphic": "do_feats_top.jpg",
+               "Height": 6,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "001",
+               "Sequence": "001",
+               "TagId": "HeadingIcon",
+               "Tooltip": "",
+               "Width": 110
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "023",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Verdana",
+               "Forecolor": "white",
+               "FunctionKey": -1,
+               "Graphic": "do_feats_header",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "                    System Demos",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "002",
+               "TagId": "TitleIcon",
+               "Tooltip": "",
+               "Width": 88
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": -1,
+               "Graphic": "do_feats_frame.jpg",
+               "Height": 24,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "003",
+               "TagId": "ControlPanel",
+               "Tooltip": "",
+               "Width": 22
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "White",
+               "FunctionKey": 36,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      &Licensing Info",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "011",
+               "Sequence": "004",
+               "TagId": "License_Info",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "ActiveXProperties": [
+                  {
+                     "Name": "Appearance",
+                     "Value": "0"
+                  },
+                  {
+                     "Name": "DataColCount",
+                     "Value": "0"
+                  },
+                  {
+                     "Name": "AllowEdit",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Editing",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EditSelLength",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EditSelStart",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EditSelText",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EditText",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GroupCollapseIcon",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GroupExpandIcon",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "IsPropertyGrid",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LegacyValueBehavior",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "DataRowCount",
+                     "Value": "0"
+                  },
+                  {
+                     "Name": "OutlineIcons",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "PreviewPaneColumn",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "PreviewPanePosition",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "PreviewPaneSize",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "PreviewPaneType",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "UserDragging",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "UserHiding",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EvenOddStyle",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "FitLastColumn",
+                     "Value": "-1"
+                  },
+                  {
+                     "Name": "FlatScrollBars",
+                     "Value": "2"
+                  },
+                  {
+                     "Name": "AutoResize",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AutoResizeHeadings",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "FocusRect",
+                     "Value": "2"
+                  },
+                  {
+                     "Name": "AutoGroup",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ClientHeight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ClientWidth",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ColWidthMax",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ColWidthMin",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "DataEntryLocked",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GroupIndentation",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "DefaultRowHeight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RowHeightMax",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RowHeightMin",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GridLines",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "RowNumbering",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AutoScroll",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AutoSearch",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AutoSearchDelay",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "SkipReadOnly",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "SuppressZeroAfterEdit",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "UserResizeAnimate",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GridLinesColor",
+                     "Value": "15066597"
+                  },
+                  {
+                     "Name": "NavigationWrapMode",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GroupByBoxBackColor",
+                     "Value": "11310235"
+                  },
+                  {
+                     "Name": "GroupByBoxText",
+                     "Value": "Group Box"
+                  },
+                  {
+                     "Name": "Enabled",
+                     "Value": "-1"
+                  },
+                  {
+                     "Name": "GroupByBoxVisible",
+                     "Value": "-1"
+                  },
+                  {
+                     "Name": "GroupFooterBackColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GroupFooterBackColor2",
+                     "Value": "16316664"
+                  },
+                  {
+                     "Name": "GroupFooterBkgStyle",
+                     "Value": "9"
+                  },
+                  {
+                     "Name": "GroupHeaderBackColor",
+                     "Value": "3148998"
+                  },
+                  {
+                     "Name": "GroupHeaderBackColor2",
+                     "Value": "13626623"
+                  },
+                  {
+                     "Name": "GroupHeaderBkgStyle",
+                     "Value": "9"
+                  },
+                  {
+                     "Name": "HeadingBackColor",
+                     "Value": "7471148"
+                  },
+                  {
+                     "Name": "HeadingForeColor",
+                     "Value": "16777215"
+                  },
+                  {
+                     "Name": "HeadingGridLines",
+                     "Value": "3"
+                  },
+                  {
+                     "Name": "BackColor",
+                     "Value": "16777215"
+                  },
+                  {
+                     "Name": "HeadingGridLinesColor",
+                     "Value": "15658734"
+                  },
+                  {
+                     "Name": "InactiveSelectionBackColor",
+                     "Value": "15379903"
+                  },
+                  {
+                     "Name": "InactiveSelectionBackColor2",
+                     "Value": "15379903"
+                  },
+                  {
+                     "Name": "InactiveSelection",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "InactiveSelectionForeColor",
+                     "Value": "0"
+                  },
+                  {
+                     "Name": "ScrollBarTips",
+                     "Value": "3"
+                  },
+                  {
+                     "Name": "SelectionBackColor",
+                     "Value": "15379903"
+                  },
+                  {
+                     "Name": "SelectionBackColor2",
+                     "Value": "15379903"
+                  },
+                  {
+                     "Name": "SelectionForeColor",
+                     "Value": "16777215"
+                  },
+                  {
+                     "Name": "SpecialMode",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "Caption",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Row",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Col",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "DefaultColWidth",
+                     "Value": "1"
+                  },
+                  {
+                     "Name": "HeadingColCount",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TabKeyBehavior",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EnterKeyBehavior",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "GridBorderStyle",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ScrollBars",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ScrollBarTrack",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "CellTips",
+                     "Value": "2"
+                  },
+                  {
+                     "Name": "RightCol",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TextAlignment",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "WordWrap",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "FocusRectLineWidth",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "SelectionMode",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "MultiSelect",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "MaxRows",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "MaxColumns",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EqualColWidth",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "EqualRowHeight",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "CellTipsDelay",
+                     "Value": "500"
+                  },
+                  {
+                     "Name": "CellBackColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "CellForeColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "CellBkgStyle",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "CellPadding",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "ColorEven",
+                     "Value": "15786213"
+                  },
+                  {
+                     "Name": "ColorOdd",
+                     "Value": "16777215"
+                  },
+                  {
+                     "Name": "ColumnClickSort",
+                     "Value": "-1"
+                  },
+                  {
+                     "Name": "CellsBorderVisible",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "DefaultGraphicsPath",
+                     "Value": ""
+                  }
+               ],
+               "CSSClass": "",
+               "Column": "023",
+               "ControlId": "VIPGrid",
+               "ControlVersion": "",
+               "Height": 20,
+               "IsControlCheckedOnLoad": "false",
+               "IsHandlerOnly": "",
+               "MaxHeight": "50",
+               "MaxWidth": "150",
+               "ObjectType": "ACTIVEX",
+               "Persistence": "Default",
+               "Row": "010",
+               "Sequence": "005",
+               "TagId": "Grid",
+               "Visibility": "default",
+               "Width": 84
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "White",
+               "FunctionKey": 33,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      &Contract All",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "012",
+               "Sequence": "006",
+               "TagId": "Grid_Full_Contract",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "White",
+               "FunctionKey": 34,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      C&ontract Categories",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "013",
+               "Sequence": "007",
+               "TagId": "Grid_Contract_Categories",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "White",
+               "FunctionKey": 35,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      Expand &All",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "014",
+               "Sequence": "008",
+               "TagId": "Grid_Expand_Display",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "White",
+               "FunctionKey": 37,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      Expor&t HTML",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "015",
+               "Sequence": "009",
+               "TagId": "Export",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "FunctionKey": 38,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "false",
+               "Label": "This is now unused",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "016",
+               "Sequence": "010",
+               "TagId": "Print",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "FunctionKey": 60,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      E&xit",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "017",
+               "Sequence": "011",
+               "TagId": "Exit",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "0",
+               "DropTypeAllowed": "",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "FunctionKey": 39,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      About These &Demos",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "010",
+               "Sequence": "012",
+               "TagId": "AboutTheseDemos",
+               "Tooltip": "",
+               "Width": 18
+            }
+         ],
+         "Type": "Cycle",
+         "WallpaperImageFileName": "do_feats_darkpurple.gif",
+         "WindowEndColumn": 0,
+         "WindowEndRow": 0,
+         "WindowStartColumn": 0,
+         "WindowStartRow": 0
+      },
+      {
+         "Contents": [
+            {
+               "AccessModeWhenScreenInAddMode": "L",
+               "AccessModeWhenScreenInChangeMode": "L",
+               "AccessModeWhenScreenInDeleteMode": "L",
+               "AccessModeWhenScreenInLookMode": "L",
+               "AfterFailedReadEvent": 0,
+               "AfterFailedWriteEvent": 0,
+               "AfterSuccessfulReadEvent": 9,
+               "AfterSuccessfulWriteEvent": 0,
+               "BeforeReadEvent": 0,
+               "BeforeWriteEvent": 0,
+               "FileAccessorName": "PRODEMO",
+               "IsFileInSortPass": "Y",
+               "IsPrimaryFile": "Y",
+               "IsSuppressFileRead": "false",
+               "KeyMappingEvent": 0,
+               "RecordLockedEvent": 0,
+               "Type": "File"
+            },
+            {
+               "AccessModeWhenScreenInAddMode": "L",
+               "AccessModeWhenScreenInChangeMode": "L",
+               "AccessModeWhenScreenInDeleteMode": "L",
+               "AccessModeWhenScreenInLookMode": "L",
+               "AfterFailedReadEvent": 0,
+               "AfterFailedWriteEvent": 0,
+               "AfterSuccessfulReadEvent": 3,
+               "AfterSuccessfulWriteEvent": 0,
+               "BeforeReadEvent": 0,
+               "BeforeWriteEvent": 0,
+               "FileAccessorName": "FUNCTDEF",
+               "IsFileInSortPass": "",
+               "IsPrimaryFile": "",
+               "IsSuppressFileRead": "false",
+               "KeyMappingEvent": 0,
+               "RecordLockedEvent": 0,
+               "Type": "File"
+            }
+         ],
+         "CycleEndTag": "",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "PopulateGrid",
+         "CycleStartTag": "",
+         "CycleType": "Update Cycle",
+         "DefaultMode": "C",
+         "EODCancelEvent": 0,
+         "IsSortVariable1Descending": "false",
+         "IsSortVariable2Descending": "false",
+         "IterationCounter": "",
+         "LastFileNumber": "",
+         "LastReadFieldTag": "",
+         "MouseNavigationAllowed": "false",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 6,
+         "ScreenModesAllowed": "C",
+         "SortEvent": 0,
+         "SortVariable1": "FEATURE_CATEGORY",
+         "SortVariable2": "@FUN",
+         "Type": "Cycle"
+      }
+   ],
+   "ErrorFunction": "OFF",
+   "Events": {
+      "001": [
+         "#REDRAW = 0",
+         "Grid.RedrawEnabled(RedrawEnabled)",
+         "",
+         "// Root Column should be hidden",
+         "$COLKEY = 'PRO-IV'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'PRO-IV'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'Hidden'",
+         "$VALUE = 'True'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "$COLKEY = 'Features'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Features'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'Hidden'",
+         "$VALUE = 'True'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "$COLKEY = 'Image'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = '   '",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'Width'",
+         "$VALUE = '400'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "",
+         "$COLKEY = 'Function Name'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Function Name'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "",
+         "$COLKEY = 'Description'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Description'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "$COLKEY = 'Category'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Category'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "$COLKEY = 'Type'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Type'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "",
+         "$COLKEY = 'Size'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Size'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "",
+         "$COLKEY = 'Revision'",
+         "Grid.ColAdd(ColAdd)",
+         "$PROP = 'Caption'",
+         "$VALUE = 'Revision'",
+         "Grid.ColWrite(ColWrite)",
+         "$PROP = 'ReadOnly'",
+         "$VALUE = '1'",
+         "Grid.ColWrite(ColWrite)",
+         "",
+         "",
+         "$PROP = 'Bold'",
+         "$VALUE = 'True'",
+         "Grid.HeadingFontWrite(HeadingFontWrite)",
+         "$COLKEY = 'PRO-IV'",
+         "#SORTORDER = 1",
+         "#SORTTYPE = 0",
+         "#SHOWFOOTER = 0",
+         "#DOREFRESH = 0",
+         "Grid.GroupAdd(GroupAdd)",
+         "$COLKEY = 'Features'",
+         "Grid.GroupAdd(GroupAdd)",
+         "",
+         "LSCALL(\"PopulateGrid\")",
+         "",
+         "Grid.AutoSizeColumns(SizeColumns)",
+         "",
+         "#REDRAW = 1",
+         "Grid.RedrawEnabled(RedrawEnabled)",
+         "",
+         "// We force the grid control to refresh all groups and branches.",
+         "#EXPAND = 2",
+         "Grid.RefreshGroups(RefreshGroup)",
+         "#LEVELS = 2",
+         "Grid.ExpandAll(ExpandAll)",
+         "",
+         "// Generate HTML and CCS files for 'Export' to avoid display corruption.",
+         "#RC = CLIENT.GETPATH(\"%TEMP%\",$TEMPPATH)",
+         "$TEMPPATH = $TEMPPATH + \"DEMO.HTML\"",
+         "Grid.ExportHTML(ExportHTML)"
+      ],
+      "002": [
+         "// Set the Demo about box",
+         "Application.AboutBox = \"@DemoAbout,About PROIV Demo\"",
+         "",
+         "// Resize the demo to the default client size",
+         "// (See @DemoClientResize for details)",
+         "IF @PFUNCT # '@DemoClientResizeUpdate' THEN",
+         "   @LFUNCT = '@DemoClientResizeUpdate'",
+         "   @#COM3 = 30",
+         "   @#COM4 = 110",
+         "   FNEXIT",
+         "ENDIF",
+         "",
+         "//DJH 29/09/2011 - NL6380 - Remove the xport HTML option. Make invisible in logic.",
+         "Export.Visible = FALSE",
+         "//DJH 29/09/2011 - NL6380 - end."
+      ],
+      "003": [
+         "$$X = CONV(@SPCSIZ) + \",\" + PIC(@FREV,'9.9999')",
+         "$$TEMP = @FUN_VERSION",
+         "",
+         "// Set Full Type of the functions",
+         "$$T = @FUNT",
+         "IF @FUNT = 'S' THEN $$T = 'Screen' ENDIF",
+         "IF @FUNT = 'U' THEN $$T = 'Update' ENDIF",
+         "IF @FUNT = 'R' THEN $$T = 'Report' ENDIF",
+         "IF @FUNT = 'D' THEN $$T = 'Document' ENDIF",
+         "IF @FUNT = 'GS' THEN $$T = 'Global Screen' ENDIF",
+         "IF @FUNT = 'GU' THEN $$T = 'Global Update' ENDIF",
+         "IF @FUNT = 'GR' THEN $$T = 'Global Report' ENDIF",
+         "IF @FUNT = 'GD' THEN $$T = 'Global Document' ENDIF",
+         "IF @FUNT = 'M' THEN $$T = 'Menu' ENDIF",
+         "",
+         "$DATA = FEATURE_CATEGORY + ',' + ',' + @FUN + ',' + @FTX + ',' + @SECCAT + ',' + $$T + ',' + $$X",
+         "$CELLSEPARATOR = \",\"",
+         "$ROWSEPARATOR = \";\"",
+         "#DATAFORMAT = 2",
+         "",
+         "// First 2 columns are hidden",
+         "$DATA = $CELLSEPARATOR + $DATA",
+         "",
+         "Grid.RowAdd(RowAdd)",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "004": [
+         "#LEVELS = 0",
+         "Grid.ExpandAll(ExpandAll)"
+      ],
+      "005": [
+         "// Collapse Grid",
+         "#LEVELS = 1",
+         "Grid.ExpandAll(ExpandAll)"
+      ],
+      "006": [
+         "DEMO_ROOT = \"DEMO\"",
+         "SEL-PARTIAL(DEMO_ROOT)"
+      ],
+      "007": [
+         "#LEVELS = 2",
+         "Grid.ExpandAll(ExpandAll)"
+      ],
+      "008": [
+         "// Run the Function for the Column 'Function Name'",
+         "#COL = Grid.Col",
+         "#ROW = Grid.Row",
+         "$COLKEY = CONV(Grid.Col)",
+         "#CELLKIND = 0",
+         "#TYPE = Grid.CellType(CellType)",
+         "// Value 3 means At grid cell(VB - sgHitCell)",
+         "IF #TYPE <> 3",
+         "   EXIT",
+         "ENDIF",
+         "$COLKEY = \"Function Name\"",
+         "$PROP = \"Position\"",
+         "$COL = Grid.ColRead(ColRead)",
+         "#COL = CONV($COL)",
+         "$VALUE = Grid.CurrentValue(CurrentValue)",
+         "IF $VALUE = \"Bad Return\"",
+         "   EXIT",
+         "ENDIF",
+         "@LFUNCT = $VALUE",
+         "FNEXIT",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         "",
+         ""
+      ],
+      "009": [
+         "//Flag to deselect DEMO functions.",
+         "IF DEMO_UNUSED = 'Y' THEN",
+         "   DSEL",
+         "ENDIF",
+         "",
+         "//Check the client that is being used. Some demos are MFC only some OC only.",
+         "IF Session.DisplayType = 'OPEN_CLIENT' THEN",
+         "   IF DEMO_CLIENT = 'W' THEN //Windows client only so deselect.",
+         "      DSEL",
+         "   ENDIF",
+         "ELSE",
+         "   IF DEMO_CLIENT = 'O' THEN //Open client only so deselect.",
+         "      DSEL",
+         "   ENDIF",
+         "ENDIF"
+      ],
+      "011": ["Application.AboutBox = \"\""],
+      "013": ["FNEXIT"],
+      "037": [
+         "// Function Key Logic for exporting the grid to HTML file",
+         "#RC = CLIENT.GETPATH(\"%TEMP%\",$TEMPPATH)",
+         "$TEMPPATH = $TEMPPATH + \"DEMO.HTML\"",
+         "Grid.ExportHTML(ExportHTML)",
+         "#RC = CLIENT.EXECUTE($TEMPPATH)"
+      ],
+      "038": [
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//",
+         "//"
+      ]
+   },
+   "ExitFunction": "OFF",
+   "FunctionEntryEvent": 2,
+   "FunctionExitEvent": 11,
+   "FunctionParameters": [],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "false",
+   "IsNoReturnData": "false",
+   "IsSuppressLines": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 1,
+   "Name": "DEMO",
+   "Password": "",
+   "ScratchVariables": [
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#CELLKIND"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#COL"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#DATAFORMAT"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#DOREFRESH"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#EXPAND"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#LEVELS"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#RC"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#REDRAW"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#ROW"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#SHOWFOOTER"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#SORTORDER"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#SORTTYPE"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 12,
+         "Name": "#TYPE"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 80,
+         "Name": "$$T"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 80,
+         "Name": "$$TEMP"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 80,
+         "Name": "$$X"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 250,
+         "Name": "$CELLSEPARATOR"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 30,
+         "Name": "$COL"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 30,
+         "Name": "$COLKEY"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 250,
+         "Name": "$DATA"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 30,
+         "Name": "$PROP"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 250,
+         "Name": "$ROWSEPARATOR"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 250,
+         "Name": "$TEMPPATH"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "ADDED AUTOMATICALLY BY DEVELOPER STUDIO",
+         "Length": 32,
+         "Name": "$VALUE"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 1,
+         "Name": "$_hold"
+      }
+   ],
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "PROIV DEMO",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Screen"
+}

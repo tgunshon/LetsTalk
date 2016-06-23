@@ -1,0 +1,83 @@
+{
+   "Children": [{
+      "Description": "Demo data for new GUI objects",
+      "Name": "DemoSalesByPeriod1",
+      "NameSuffix": "_1"
+   }],
+   "Codeset": "",
+   "Description": "Demo data for new GUI objects",
+   "EncryptionKey": "",
+   "Fields": [
+      {
+         "DataName": "Month",
+         "DataNameAlternate": "",
+         "DataType": "Alpha Key",
+         "DefaultHelpMessage": "",
+         "Dimension": 0,
+         "ExternalDataType": "",
+         "ExternalNumericFormat": "",
+         "IsEncrypted": "false",
+         "IsNullPermitted": "false",
+         "MaxLength": 10
+      },
+      {
+         "DataName": "Week",
+         "DataNameAlternate": "",
+         "DataType": "Alpha Key",
+         "DefaultHelpMessage": "",
+         "Dimension": 0,
+         "ExternalDataType": "",
+         "ExternalNumericFormat": "",
+         "IsEncrypted": "false",
+         "IsNullPermitted": "false",
+         "MaxLength": 10
+      },
+      {
+         "DataName": "UnitsSold",
+         "DataNameAlternate": "",
+         "DataType": "Numeric",
+         "DefaultHelpMessage": "",
+         "Dimension": 3,
+         "ExternalDataType": "",
+         "ExternalNumericFormat": "",
+         "IsEncrypted": "false",
+         "IsNullPermitted": "false",
+         "MaxLength": 6
+      }
+   ],
+   "FileCreationDate": 79067,
+   "FileCreationTime": "082415",
+   "IsAutosequenced": "false",
+   "IsCoDiv": "false",
+   "IsLockSequence": "false",
+   "KernelRecordLockedMessage": "",
+   "KernelRecordLockedRetryMessage": "",
+   "KernelRecordMissingMessage": "",
+   "KernelRecordPresentMessage": "",
+   "KeyLength": 20,
+   "MasterFile - this is a calculated value so not included in the JSON": "",
+   "Meta": {
+      "Type": "p4fl",
+      "Version": "1"
+   },
+   "Name": "DemoSalesByPeriod",
+   "PageLength": 0,
+   "PhysicalFileName": "",
+   "RecordLockedRetryTranslationMaxLength": 0,
+   "RecordLockedRetryTranslationMeaning": "",
+   "RecordLockedRetryTranslationMode": "",
+   "RecordLockedTranslationMaxLength": 0,
+   "RecordLockedTranslationMeaning": "",
+   "RecordLockedTranslationMode": "",
+   "RecordMissingTranslationMaxLength": 0,
+   "RecordMissingTranslationMeaning": "",
+   "RecordMissingTranslationMode": "",
+   "RecordPresentTranslationMaxLength": 0,
+   "RecordPresentTranslationMode": "",
+   "SecurityCategory": "",
+   "SecurityLevelAdd": 0,
+   "SecurityLevelChange": 0,
+   "SecurityLevelDelete": 0,
+   "SecurityLevelLook": 0,
+   "Type": "MKY"
+}

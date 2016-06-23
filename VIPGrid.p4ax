@@ -1,0 +1,3590 @@
+{
+   "Class": "{FE09B20E-0B1F-4E54-9207-B2D4071423BC}",
+   "ControlId": "VIPGrid",
+   "Description": "Event interface for PROIV Grid",
+   "FileDescription": "CPROIVSPGrid ActiveX Control module (v2.0)",
+   "HelpFile": "C:\\Program Files\\Common Files\\NorthgateArinso\\CPROIVSPGrid.hlp",
+   "ImplementationFile": "CPROIV~1.OCX",
+   "IsJavaScript": "false",
+   "Meta": {
+      "Type": "p4ax",
+      "Version": "1"
+   },
+   "Name": "_DCPROIVSPGridEvents",
+   "ProgramId": "PROIV.CSPGrid",
+   "PropertyMethods": [
+      {
+         "Description": "Fired when a mouse click occurs.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Click",
+         "NumericDataType": 24,
+         "OSId": "-600",
+         "Prototype": "void _stdcall Click(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired when a mouse double click occurs.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DblClick",
+         "NumericDataType": 24,
+         "OSId": "-601",
+         "Prototype": "void _stdcall DblClick(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired after the cell exits edit mode. RowKey - Key of the row that has focus. ColumnIndex - Index of the column that has focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AfterEdit",
+         "NumericDataType": 24,
+         "OSId": "1",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnIndex",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall AfterEdit(long RowKey, long ColumnIndex);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnSelChanged",
+         "NumericDataType": 24,
+         "OSId": "2",
+         "Prototype": "void _stdcall OnSelChanged(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired when current cell changes to a different cell. LastRowPosition - Position the previously focused row. LastRowKey - Key of the previously focused row. LastColumnIndex - Index of the previously focused column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowColChange",
+         "NumericDataType": 24,
+         "OSId": "3",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "LastRowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "LastRowKey",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "LastColumnIndex",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall RowColChange(long LastRowPosition, long LastRowKey, long LastColumnIndex);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired when button of the cell being edited is clicked. RowPosition - Position of the focused row. RowKey - Key of the focused row. ColumnIndex - Index of the focused column.  CellValue - Value of the cell. CellTag - Tag Data for the cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ButtonClick",
+         "NumericDataType": 24,
+         "OSId": "4",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnIndex",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellValue",
+               "NumericDataType": 8,
+               "OSId": "0004",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellTag",
+               "NumericDataType": 8,
+               "OSId": "0005",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall ButtonClick(long RowPosition, long RowKey, long ColumnIndex, BSTR CellValue, BSTR CellTag);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired when an item is selected from a dropdown list. RowKey - Key of the focused row. ColumnIndex - Index of the column. RowPosition - Position of the row. CellValue - Value of the cell. CellTag - Tag Data for the cell. CellOldValue - Old value of th",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnItemSelect",
+         "NumericDataType": 24,
+         "OSId": "5",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnIndex",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellValue",
+               "NumericDataType": 8,
+               "OSId": "0004",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellTag",
+               "NumericDataType": 8,
+               "OSId": "0005",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellOldValue",
+               "NumericDataType": 8,
+               "OSId": "0006",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall OnItemSelect(long RowKey, long ColumnIndex, long RowPosition, BSTR CellValue, BSTR CellTag, BSTR CellOldValue);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Fired when a cell is exiting edit mode and its value has changed. RowKey - Key of edited row. ColumnIndex - Index of edited column. RowPosition - Position of row. CellValue - Value of cell. CellTag - Tag Data for cell. CellOldValue - Old value of cel",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AfterEditEx",
+         "NumericDataType": 24,
+         "OSId": "6",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnIndex",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellValue",
+               "NumericDataType": 8,
+               "OSId": "0004",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellTag",
+               "NumericDataType": 8,
+               "OSId": "0005",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellOldValue",
+               "NumericDataType": 8,
+               "OSId": "0006",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall AfterEditEx(long RowKey, long ColumnIndex, long RowPosition, BSTR CellValue, BSTR CellTag, BSTR CellOldValue);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AboutBox",
+         "NumericDataType": 24,
+         "OSId": "-552",
+         "Prototype": "void _stdcall AboutBox(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets property for specified cell by Key reference.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWritePropertyByKeys",
+         "NumericDataType": 24,
+         "OSId": "117",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0004",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWritePropertyByKeys(long RowKey, BSTR* ColumnKey, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Reads tag value from specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadTag",
+         "NumericDataType": 8,
+         "OSId": "118",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadTag(BSTR* ColumnKey, long RowPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Writes tag value in specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWriteTag",
+         "NumericDataType": 24,
+         "OSId": "119",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWriteTag(BSTR* ColumnKey, long RowPosition, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds a value item for specified column. Display text and picture are optional, text can be multi-column by using Tab char to separate the strings.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColValueItemsAdd",
+         "NumericDataType": 24,
+         "OSId": "120",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "DisplayText",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "DisplayPicture",
+               "NumericDataType": 26,
+               "OSId": "0004",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall ColValueItemsAdd(BSTR* ColumnKey, BSTR* Value, BSTR* DisplayText, BSTR* DisplayPicture);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all value items for specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColValueItemsRemoveAll",
+         "NumericDataType": 24,
+         "OSId": "121",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnKey",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall ColValueItemsRemoveAll(BSTR* ColumnKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the position in the Grid for the specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetColumnPosition",
+         "NumericDataType": 3,
+         "OSId": "122",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnKey",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "long _stdcall GetColumnPosition(BSTR* ColumnKey);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the Key of the current Row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetCurrentRowKey",
+         "NumericDataType": 3,
+         "OSId": "123",
+         "Prototype": "long _stdcall GetCurrentRowKey(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns a count of rows. Includes headings and hidden rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetRowCount",
+         "NumericDataType": 3,
+         "OSId": "124",
+         "Prototype": "long _stdcall GetRowCount(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the Key of the specified Row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetRowKey",
+         "NumericDataType": 3,
+         "OSId": "125",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowPosition",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "long _stdcall GetRowKey(long RowPosition);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the position in the Grid for the specified Row Key. If the Row Key is not found then -1 will be returned.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetRowPosition",
+         "NumericDataType": 3,
+         "OSId": "126",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "long _stdcall GetRowPosition(long RowKey);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns property value for specified group.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupRead",
+         "NumericDataType": 8,
+         "OSId": "127",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall GroupRead(BSTR* ColumnKey, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes the specified group.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupRemove",
+         "NumericDataType": 24,
+         "OSId": "128",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnKey",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall GroupRemove(BSTR* ColumnKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all groups.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupRemoveAll",
+         "NumericDataType": 24,
+         "OSId": "129",
+         "Prototype": "void _stdcall GroupRemoveAll(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets property for specified group.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupWrite",
+         "NumericDataType": 24,
+         "OSId": "130",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall GroupWrite(BSTR* ColumnKey, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Moves the current record to the row with the specified key.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MoveToRowKey",
+         "NumericDataType": 24,
+         "OSId": "131",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall MoveToRowKey(long RowKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified cell using its row and column keys",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawCellByKeys",
+         "NumericDataType": 24,
+         "OSId": "132",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall RedrawCellByKeys(long RowKey, BSTR* ColumnKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified column using its column key",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawColByKey",
+         "NumericDataType": 24,
+         "OSId": "133",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnKey",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall RedrawColByKey(BSTR* ColumnKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified row using its row key",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawRowByKey",
+         "NumericDataType": 24,
+         "OSId": "134",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RedrawRowByKey(long RowKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes specified group heading and all of its child rows. With this method you can only remove rows that are group headers.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RemoveGroup",
+         "NumericDataType": 24,
+         "OSId": "135",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RemoveGroup(long RowKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all group headings matching the specified caption, and all of their child rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RemoveGroupsByHdrCaption",
+         "NumericDataType": 24,
+         "OSId": "136",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Caption",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall RemoveGroupsByHdrCaption(BSTR* Caption);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all group headings matching the specified grouping value, and all of their child rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RemoveGroupsByHdrGroupingValue",
+         "NumericDataType": 24,
+         "OSId": "137",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "HeaderGroupingValue",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall RemoveGroupsByHdrGroupingValue(BSTR* HeaderGroupingValue);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns property value for the row with the specified key.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowReadByKey",
+         "NumericDataType": 8,
+         "OSId": "138",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall RowReadByKey(long RowKey, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes the specified row from the grid.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowRemove",
+         "NumericDataType": 24,
+         "OSId": "139",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RowRemove(long RowKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets a property for the row with the specified key.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowWriteByKey",
+         "NumericDataType": 24,
+         "OSId": "140",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall RowWriteByKey(long RowKey, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds row and returns its Key.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowAddReturnKey",
+         "NumericDataType": 3,
+         "OSId": "141",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Format",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowData",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellSeparator",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "long _stdcall RowAddReturnKey(long Format, BSTR* RowData, BSTR* CellSeparator);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds new style to the collection.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleAdd",
+         "NumericDataType": 24,
+         "OSId": "142",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "NewStyleName",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall StyleAdd(BSTR* NewStyleName);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns True if the named style exists in the collection.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleExists",
+         "NumericDataType": 3,
+         "OSId": "143",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "StyleName",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "long _stdcall StyleExists(BSTR* StyleName);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets font for specified style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleFontWrite",
+         "NumericDataType": 24,
+         "OSId": "144",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "StyleName",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 8,
+               "OSId": "0003",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall StyleFontWrite(BSTR* StyleName, BSTR* Property, BSTR Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes the named style from the styles collection.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleRemove",
+         "NumericDataType": 24,
+         "OSId": "145",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "StyleName",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall StyleRemove(BSTR* StyleName);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all named styles from the styles collection. To remove unnamed styles use the RemoveCustom method. You cannot remove built-in styles.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleRemoveAll",
+         "NumericDataType": 24,
+         "OSId": "146",
+         "Prototype": "void _stdcall StyleRemoveAll(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all unnamed styles from the grid collection. To remove all named styles use the RemoveAll method. You cannot remove built-in styles.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleRemoveCustom",
+         "NumericDataType": 24,
+         "OSId": "147",
+         "Prototype": "void _stdcall StyleRemoveCustom(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Resize column widths to fit cell content",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoSizeColumns",
+         "NumericDataType": 24,
+         "OSId": "167",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "nFirstColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "nLastColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall AutoSizeColumns(long nFirstColumnPosition, long nLastColumnPosition);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Resize row heights to fit cell content",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoSizeRows",
+         "NumericDataType": 24,
+         "OSId": "168",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "nFirstRowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "nLastRowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall AutoSizeRows(long nFirstRowPosition, long nLastRowPosition);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sorts specified rows and column. RowPositionStart - The start row to be sorted, Set to -1 to sort from the first row. RowPositionEnd - Position of the last row to be sorted, Set this argument to -1 to sort until the last row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Sort",
+         "NumericDataType": 24,
+         "OSId": "169",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPositionStart",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPositionEnd",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "SortParameters",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall Sort(long RowPositionStart, long RowPositionEnd, BSTR* SortParameters);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns property value for specified cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadProperty",
+         "NumericDataType": 8,
+         "OSId": "170",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadProperty(long RowPosition, long ColumnPosition, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns property value for specified cell by Key reference.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadPropertyByKeys",
+         "NumericDataType": 8,
+         "OSId": "171",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadPropertyByKeys(long RowKey, BSTR* ColumnKey, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the original text value of the current cell. This would be used when programatically exiting edit mode and require the cell's original text.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetOriginalText",
+         "NumericDataType": 8,
+         "OSId": "173",
+         "Prototype": "BSTR _stdcall GetOriginalText(void);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns a count of columns. Includes headings and hidden columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetColCount",
+         "NumericDataType": 3,
+         "OSId": "174",
+         "Prototype": "long _stdcall GetColCount(void);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the key of the specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetColKey",
+         "NumericDataType": 8,
+         "OSId": "175",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColPosition",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "BSTR _stdcall GetColKey(long ColPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the key of the current column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetCurrentColKey",
+         "NumericDataType": 8,
+         "OSId": "176",
+         "Prototype": "BSTR _stdcall GetCurrentColKey(void);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Collapses specified row. This method works only for the group heading rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CollapseRow",
+         "NumericDataType": 24,
+         "OSId": "177",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowKey",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall CollapseRow(long RowKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Expands specified row. This method has effect only if the grid is grouped.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ExpandRow",
+         "NumericDataType": 24,
+         "OSId": "178",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowKey",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "NumberOfLevels",
+               "NumericDataType": 2,
+               "OSId": "0002",
+               "StringDataType": "short"
+            }
+         ],
+         "Prototype": "void _stdcall ExpandRow(long RowKey, short NumberOfLevels);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Collapses the group with the specified grouping value.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CollapseGroupByHdrGroupingValue",
+         "NumericDataType": 24,
+         "OSId": "179",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "HeaderGroupingValue",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall CollapseGroupByHdrGroupingValue(BSTR* HeaderGroupingValue);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Expands the group with the specified grouping value.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ExpandGroupByHdrGroupingValue",
+         "NumericDataType": 24,
+         "OSId": "180",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "HeaderGroupingValue",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "NumberOfLevels",
+               "NumericDataType": 2,
+               "OSId": "0002",
+               "StringDataType": "short"
+            }
+         ],
+         "Prototype": "void _stdcall ExpandGroupByHdrGroupingValue(BSTR* HeaderGroupingValue, short NumberOfLevels);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns True if the group with the specified grouping value is expanded, False if it is not.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetExpandedForHdrGroupingValue",
+         "NumericDataType": 3,
+         "OSId": "181",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "HeaderGroupingValue",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "long _stdcall GetExpandedForHdrGroupingValue(BSTR* HeaderGroupingValue);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the row key for the group with the specified grouping value.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetRowKeyForHdrGroupingValue",
+         "NumericDataType": 3,
+         "OSId": "182",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "HeaderGroupingValue",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "long _stdcall GetRowKeyForHdrGroupingValue(BSTR* HeaderGroupingValue);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the row position of the group with the specified grouping value.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetRowPosForHdrGroupingValue",
+         "NumericDataType": 3,
+         "OSId": "183",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "HeaderGroupingValue",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "long _stdcall GetRowPosForHdrGroupingValue(BSTR* HeaderGroupingValue);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns a list of Group headings with their Expanded values. Groups are separated by the '|' character, Group Titles are separated from their Expanded boolean value by an '=' character.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetGroupsExpandedValues",
+         "NumericDataType": 8,
+         "OSId": "184",
+         "Prototype": "BSTR _stdcall GetGroupsExpandedValues(void);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Expands or contracts a list of Group headings. Groups are separated by the '|' character, Group Titles are separated from their Expanded boolean value by an '=' character.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetGroupsExpandedValues",
+         "NumericDataType": 24,
+         "OSId": "185",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "GroupsExpandedValues",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall SetGroupsExpandedValues(BSTR* GroupsExpandedValues);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Wrapper method to write the following properties:Appearance,BackColor,BackColor2,BkgPictureAlignment,BkgStyle,BorderColor,Borders,BorderSize,BorderStyle,CustomDraw,DisplayType,Ellipsis,ForeColor,Format,HighlightColor,MousePointer,Padding,...",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleRead",
+         "NumericDataType": 8,
+         "OSId": "64",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "StyleName",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall StyleRead(BSTR* StyleName, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellType",
+         "NumericDataType": 3,
+         "OSId": "65",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColKey",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellKind",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "long _stdcall CellType(long RowPosition, BSTR* ColKey, long CellKind);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Reads the property value for the specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColRead",
+         "NumericDataType": 8,
+         "OSId": "66",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall ColRead(BSTR* ColumnKey, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns current value for specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CurrentValue",
+         "NumericDataType": 8,
+         "OSId": "67",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CurrentValue(long ColumnPosition, long RowPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns a property value for the row at the specified position.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowRead",
+         "NumericDataType": 8,
+         "OSId": "68",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "BSTR _stdcall RowRead(long RowPosition, BSTR* Property);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Writes text in specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWriteText",
+         "NumericDataType": 24,
+         "OSId": "69",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Text",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWriteText(BSTR* ColumnKey, long RowPosition, BSTR* Text);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Reads context from specified cell object.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadText",
+         "NumericDataType": 8,
+         "OSId": "70",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadText(BSTR* ColumnKey, long RowPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Writes value in specified cell object. (Legacy mode stores value in the cell tag)",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWriteValue",
+         "NumericDataType": 24,
+         "OSId": "71",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWriteValue(BSTR* ColumnKey, long RowPosition, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Reads value from specified cell object. (Legacy mode retrieves value from the cell tag)",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadValue",
+         "NumericDataType": 8,
+         "OSId": "72",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadValue(BSTR* ColumnKey, long RowPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "StyleWrite",
+         "NumericDataType": 24,
+         "OSId": "73",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "StyleName",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 8,
+               "OSId": "0003",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall StyleWrite(BSTR* StyleName, BSTR* Property, BSTR Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Enables or disables redrawing of the control.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawEnabled",
+         "NumericDataType": 24,
+         "OSId": "74",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RedrawEnabled",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RedrawEnabled(long RedrawEnabled);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColAdd",
+         "NumericDataType": 24,
+         "OSId": "75",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnKey",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall ColAdd(BSTR* ColumnKey);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets property for specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColWrite",
+         "NumericDataType": 24,
+         "OSId": "76",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall ColWrite(BSTR* ColumnKey, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets font for header rows and columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingFontWrite",
+         "NumericDataType": 24,
+         "OSId": "77",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall HeadingFontWrite(BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds group.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupAdd",
+         "NumericDataType": 24,
+         "OSId": "78",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "ColumnKey",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "SortOrder",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "SortType",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ShowFooter",
+               "NumericDataType": 3,
+               "OSId": "0004",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "DoRefresh",
+               "NumericDataType": 3,
+               "OSId": "0005",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall GroupAdd(BSTR* ColumnKey, long SortOrder, long SortType, long ShowFooter, long DoRefresh);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Adds row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowAdd",
+         "NumericDataType": 24,
+         "OSId": "79",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Format",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowData",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellSeparator",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall RowAdd(long Format, BSTR* RowData, BSTR* CellSeparator);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets picture for specified cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetPicture",
+         "NumericDataType": 24,
+         "OSId": "80",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Format",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Row",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0003",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "WinDir",
+               "NumericDataType": 26,
+               "OSId": "0004",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "File",
+               "NumericDataType": 26,
+               "OSId": "0005",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall SetPicture(long Format, long Row, long ColumnPosition, BSTR* WinDir, BSTR* File);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Expands all groups.Levels  Optional. An Integer expression that specifies the number of levels to expand.Default value is -1 which expands all levels.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ExpandAll",
+         "NumericDataType": 24,
+         "OSId": "81",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ExpandAll",
+            "NumericDataType": 2,
+            "OSId": "0001",
+            "StringDataType": "short"
+         }],
+         "Prototype": "void _stdcall ExpandAll(short ExpandAll);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Forces a recalculation of groups in a grid control.sgExpandGroups- 1 - Groups will be expanded.sgCollapseGroups - 2 - Groups will be collapsed.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RefreshGroups",
+         "NumericDataType": 24,
+         "OSId": "82",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RefreshGroups",
+            "NumericDataType": 2,
+            "OSId": "0001",
+            "StringDataType": "short"
+         }],
+         "Prototype": "void _stdcall RefreshGroups(short RefreshGroups);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Imports data from a string.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ImportDataString",
+         "NumericDataType": 24,
+         "OSId": "83",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Data",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "DataFormat",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "CellSeparator",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "RowSeparator",
+               "NumericDataType": 26,
+               "OSId": "0004",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall ImportDataString(BSTR* Data, long DataFormat, BSTR* CellSeparator, BSTR* RowSeparator);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets a property for the row at the specified position.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowWrite",
+         "NumericDataType": 24,
+         "OSId": "84",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall RowWrite(long RowPosition, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified grid area.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Redraw",
+         "NumericDataType": 24,
+         "OSId": "85",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "GridSection",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall Redraw(long GridSection);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColRemoveAll",
+         "NumericDataType": 24,
+         "OSId": "86",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RemoveHeading",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall ColRemoveAll(long RemoveHeading);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Removes all rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowRemoveAll",
+         "NumericDataType": 24,
+         "OSId": "87",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RemoveHeading",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RowRemoveAll(long RemoveHeading);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets focus rectangle color.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetFocusRectColor",
+         "NumericDataType": 24,
+         "OSId": "88",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Color",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall SetFocusRectColor(BSTR* Color);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets font used in standard cells.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FontWrite",
+         "NumericDataType": 24,
+         "OSId": "89",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0001",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0002",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall FontWrite(BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Exports grid as an HTML table to a file.FilePath- A String expression that indicates the name of the file to be loaded.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ExportHTML",
+         "NumericDataType": 24,
+         "OSId": "90",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Path",
+            "NumericDataType": 26,
+            "OSId": "0001",
+            "StringDataType": "BSTR*"
+         }],
+         "Prototype": "void _stdcall ExportHTML(BSTR* Path);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Generates the pages collection to the linked viewer control.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "PrintGrid",
+         "NumericDataType": 24,
+         "OSId": "91",
+         "Prototype": "void _stdcall PrintGrid(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified cell. RowPosition - The position of the row in the grid. ColumnPosition - The position of the column in the grid.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawCell",
+         "NumericDataType": 24,
+         "OSId": "92",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "void _stdcall RedrawCell(long RowPosition, long ColumnPosition);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified row.RowPosition  - A Long that identifies the row Position.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawRow",
+         "NumericDataType": 24,
+         "OSId": "93",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "RowPosition",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RedrawRow(long RowPosition);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Redraws specified column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RedrawCol",
+         "NumericDataType": 24,
+         "OSId": "94",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "ColumnPosition",
+            "NumericDataType": 3,
+            "OSId": "0001",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall RedrawCol(long ColumnPosition);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Writes tip for specified cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWriteTip",
+         "NumericDataType": 24,
+         "OSId": "95",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "sValue",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWriteTip(long RowPosition, long ColumnPosition, BSTR* sValue);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Reads tip from specified cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellReadTip",
+         "NumericDataType": 8,
+         "OSId": "96",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            }
+         ],
+         "Prototype": "BSTR _stdcall CellReadTip(long RowPosition, long ColumnPosition);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sets property for specified cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellWriteProperty",
+         "NumericDataType": 24,
+         "OSId": "97",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "RowPosition",
+               "NumericDataType": 3,
+               "OSId": "0001",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "ColumnPosition",
+               "NumericDataType": 3,
+               "OSId": "0002",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "Property",
+               "NumericDataType": 26,
+               "OSId": "0003",
+               "StringDataType": "BSTR*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Value",
+               "NumericDataType": 26,
+               "OSId": "0004",
+               "StringDataType": "BSTR*"
+            }
+         ],
+         "Prototype": "void _stdcall CellWriteProperty(long RowPosition, long ColumnPosition, BSTR* Property, BSTR* Value);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns or sets the paint style.sgFlat - 0 - Flat appearance.sg3D   - 1 - Standard 3D appearance.sg3DLight -  2 - Light 3D appearance. ",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Appearance",
+         "NumericDataType": 3,
+         "OSId": "1",
+         "Prototype": "long Appearance",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the total number of data columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DataColCount",
+         "NumericDataType": 3,
+         "OSId": "10",
+         "Prototype": "long DataColCount",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether the user is allowed to edit data.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AllowEdit",
+         "NumericDataType": 3,
+         "OSId": "100",
+         "Prototype": "long AllowEdit",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets flag indicating whether the current cell is currently being edited.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Editing",
+         "NumericDataType": 3,
+         "OSId": "101",
+         "Prototype": "long Editing",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the number of characters selected in the cell editor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EditSelLength",
+         "NumericDataType": 3,
+         "OSId": "102",
+         "Prototype": "long EditSelLength",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the starting point of the text selected in the cell editor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EditSelStart",
+         "NumericDataType": 3,
+         "OSId": "103",
+         "Prototype": "long EditSelStart",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets currently selected text in the cell editor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EditSelText",
+         "NumericDataType": 8,
+         "OSId": "104",
+         "Prototype": "BSTR EditSelText",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the text in the cell editor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EditText",
+         "NumericDataType": 8,
+         "OSId": "105",
+         "Prototype": "BSTR EditText",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the grid's group collapse icon.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupCollapseIcon",
+         "NumericDataType": 8,
+         "OSId": "106",
+         "Prototype": "BSTR GroupCollapseIcon",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the grid's group expand icon.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupExpandIcon",
+         "NumericDataType": 8,
+         "OSId": "107",
+         "Prototype": "BSTR GroupExpandIcon",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether the Grid is being used as a Property Grid.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "IsPropertyGrid",
+         "NumericDataType": 3,
+         "OSId": "108",
+         "Prototype": "long IsPropertyGrid",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets Legacy Behavior which uses the cell tag to store values. Enabled by default, Disable to permit use of separate data, tag and display text values for each cell.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "LegacyValueBehavior",
+         "NumericDataType": 3,
+         "OSId": "109",
+         "Prototype": "long LegacyValueBehavior",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the number of data rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DataRowCount",
+         "NumericDataType": 3,
+         "OSId": "11",
+         "Prototype": "long DataRowCount",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating what type of group expand/contract icons the grid will display.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OutlineIcons",
+         "NumericDataType": 3,
+         "OSId": "110",
+         "Prototype": "long OutlineIcons",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the key of the column displayed in the preview pane.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "PreviewPaneColumn",
+         "NumericDataType": 8,
+         "OSId": "111",
+         "Prototype": "BSTR PreviewPaneColumn",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating the preview pane's position.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "PreviewPanePosition",
+         "NumericDataType": 3,
+         "OSId": "112",
+         "Prototype": "long PreviewPanePosition",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the preview pane's size (height or width) in twips.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "PreviewPaneSize",
+         "NumericDataType": 3,
+         "OSId": "113",
+         "Prototype": "long PreviewPaneSize",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether the preview pane is displayed.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "PreviewPaneType",
+         "NumericDataType": 3,
+         "OSId": "114",
+         "Prototype": "long PreviewPaneType",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether the user is allowed to drag rows and columns with the mouse.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "UserDragging",
+         "NumericDataType": 3,
+         "OSId": "115",
+         "Prototype": "long UserDragging",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether the user is allowed to hide rows and columns with the mouse.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "UserHiding",
+         "NumericDataType": 3,
+         "OSId": "116",
+         "Prototype": "long UserHiding",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables even/odd formatting.sgNoEvenOdd-0 Do not alternate colors.sgEvenOddRows- 1 Apply alternate colors for rows only.sgEvenOddCols-2 Apply alternate colors for columns only.sgEvenOddBoth-3 Apply alternate colors for both rows and colum",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EvenOddStyle",
+         "NumericDataType": 3,
+         "OSId": "12",
+         "Prototype": "long EvenOddStyle",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets flag indicating whether the last column should be adjusted to fit the control's width.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FitLastColumn",
+         "NumericDataType": 3,
+         "OSId": "13",
+         "Prototype": "long FitLastColumn",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables flat scroll bars.sgSBRegularMode - 0 - Show standard (3D) scrollbars.sgSBEncartaMode - 1 - Show flat scrollbars.sgSBFlatMode    - 2 - Show flat scrollbars.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FlatScrollBars",
+         "NumericDataType": 3,
+         "OSId": "14",
+         "Prototype": "long FlatScrollBars",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether columns and/or rows are automatically resized when grid data is loaded.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoResize",
+         "NumericDataType": 3,
+         "OSId": "148",
+         "Prototype": "long AutoResize",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether column headings are included in the AutoSize operation.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoResizeHeadings",
+         "NumericDataType": 3,
+         "OSId": "149",
+         "Prototype": "long AutoResizeHeadings",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets focus rectangle type.sgFocusRectNone-0 - Do not draw focus rectangle.sgFocusRectDotted-1 - Draw dotted focus rectangle.sgFocusRectSolid- 2 - Draw solid focus rectangle.sgFocusRectOwnerDraw - 3 - Custom drawn focus rectangle.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FocusRect",
+         "NumericDataType": 3,
+         "OSId": "15",
+         "Prototype": "long FocusRect",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Value indicating whether groupings are refreshed when row data is changed or a new row is added.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoGroup",
+         "NumericDataType": 3,
+         "OSId": "150",
+         "Prototype": "long AutoGroup",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns height of the area in which grid cells are displayed. Client height does not include scrollbars, grid's caption, group-by box and preview pane.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ClientHeight",
+         "NumericDataType": 3,
+         "OSId": "151",
+         "Prototype": "long ClientHeight",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns width of the area in which grid cells are displayed. The Client width does not include scrollbars and preview pane.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ClientWidth",
+         "NumericDataType": 3,
+         "OSId": "152",
+         "Prototype": "long ClientWidth",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the maximum column width.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColWidthMax",
+         "NumericDataType": 3,
+         "OSId": "153",
+         "Prototype": "long ColWidthMax",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the minimum column width.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColWidthMin",
+         "NumericDataType": 3,
+         "OSId": "154",
+         "Prototype": "long ColWidthMin",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables editing and updating of the data displayed in the grid. It can be used to temporarily disable user input while preserving navigation capabilities.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DataEntryLocked",
+         "NumericDataType": 3,
+         "OSId": "155",
+         "Prototype": "long DataEntryLocked",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets grid's hierarchy indentation size. This property has effect only if the grid is grouped.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupIndentation",
+         "NumericDataType": 3,
+         "OSId": "156",
+         "Prototype": "long GroupIndentation",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the default row height.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DefaultRowHeight",
+         "NumericDataType": 3,
+         "OSId": "157",
+         "Prototype": "long DefaultRowHeight",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the maximum row height.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowHeightMax",
+         "NumericDataType": 3,
+         "OSId": "158",
+         "Prototype": "long RowHeightMax",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the minimum row height.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowHeightMin",
+         "NumericDataType": 3,
+         "OSId": "159",
+         "Prototype": "long RowHeightMin",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets grid line style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GridLines",
+         "NumericDataType": 3,
+         "OSId": "16",
+         "Prototype": "long GridLines",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables whether the grid displays row numbers inside row heading cells. By default, row number alignment is left-center. You can change style of row numbers by changing style of the first column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RowNumbering",
+         "NumericDataType": 3,
+         "OSId": "160",
+         "Prototype": "long RowNumbering",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether grid is scrolled as a result of user drag/size mouse operations.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoScroll",
+         "NumericDataType": 3,
+         "OSId": "161",
+         "Prototype": "long AutoScroll",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether auto-search is enabled.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoSearch",
+         "NumericDataType": 3,
+         "OSId": "162",
+         "Prototype": "long AutoSearch",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the time interval after which the AutoSearch buffer is reset. In milliseconds.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoSearchDelay",
+         "NumericDataType": 2,
+         "OSId": "163",
+         "Prototype": "short AutoSearchDelay",
+         "StringDataType": "short",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether read only cells can receive focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SkipReadOnly",
+         "NumericDataType": 3,
+         "OSId": "164",
+         "Prototype": "long SkipReadOnly",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Applies to 'PropertyGrid' mode only, Disabled by default. Returns or sets whether the entry of a single Zero (0) will be displayed in a numeric/integer cell after editing, or whether it will be suppressed and appear blank.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SuppressZeroAfterEdit",
+         "NumericDataType": 3,
+         "OSId": "165",
+         "Prototype": "long SuppressZeroAfterEdit",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating row/column resize feedback.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "UserResizeAnimate",
+         "NumericDataType": 3,
+         "OSId": "166",
+         "Prototype": "long UserResizeAnimate",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets color for flat grid lines.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GridLinesColor",
+         "NumericDataType": 8,
+         "OSId": "17",
+         "Prototype": "BSTR GridLinesColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets wrapping mode used for grid navigation. 0-focus is not moved to the next cell. 1-focus is moved to the first focusable cell in the next focusable row. 2-focus is moved to the first focusable cell in the same row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "NavigationWrapMode",
+         "NumericDataType": 3,
+         "OSId": "172",
+         "Prototype": "long NavigationWrapMode",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns backcolor dispalyed in the group-by box",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupByBoxBackColor",
+         "NumericDataType": 8,
+         "OSId": "18",
+         "Prototype": "BSTR GroupByBoxBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the text dispalyed in the group-by box.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupByBoxText",
+         "NumericDataType": 8,
+         "OSId": "19",
+         "Prototype": "BSTR GroupByBoxText",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables filter.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Enabled",
+         "NumericDataType": 3,
+         "OSId": "2",
+         "Prototype": "long Enabled",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether group-by box is visible.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupByBoxVisible",
+         "NumericDataType": 3,
+         "OSId": "20",
+         "Prototype": "long GroupByBoxVisible",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns footer backcolor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupFooterBackColor",
+         "NumericDataType": 8,
+         "OSId": "21",
+         "Prototype": "BSTR GroupFooterBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns footer backcolor2.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupFooterBackColor2",
+         "NumericDataType": 8,
+         "OSId": "22",
+         "Prototype": "BSTR GroupFooterBackColor2",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns group footer background style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupFooterBkgStyle",
+         "NumericDataType": 3,
+         "OSId": "23",
+         "Prototype": "long GroupFooterBkgStyle",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns group header background color.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupHeaderBackColor",
+         "NumericDataType": 8,
+         "OSId": "24",
+         "Prototype": "BSTR GroupHeaderBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns group header background color2.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupHeaderBackColor2",
+         "NumericDataType": 8,
+         "OSId": "25",
+         "Prototype": "BSTR GroupHeaderBackColor2",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets or Returns group header background style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GroupHeaderBkgStyle",
+         "NumericDataType": 3,
+         "OSId": "26",
+         "Prototype": "long GroupHeaderBkgStyle",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets background color for header rows and columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingBackColor",
+         "NumericDataType": 8,
+         "OSId": "27",
+         "Prototype": "BSTR HeadingBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets foreground color for header rows and columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingForeColor",
+         "NumericDataType": 8,
+         "OSId": "28",
+         "Prototype": "BSTR HeadingForeColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets grid line style for header rows and columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingGridLines",
+         "NumericDataType": 3,
+         "OSId": "29",
+         "Prototype": "long HeadingGridLines",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets color for area outside of grid cells.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "BackColor",
+         "NumericDataType": 8,
+         "OSId": "3",
+         "Prototype": "BSTR BackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets color for flat grid lines of header rows and columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingGridLinesColor",
+         "NumericDataType": 8,
+         "OSId": "30",
+         "Prototype": "BSTR HeadingGridLinesColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating how to draw backcolor selection when grid does not have focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InactiveSelectionBackColor",
+         "NumericDataType": 8,
+         "OSId": "31",
+         "Prototype": "BSTR InactiveSelectionBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating how to draw backcolor2 selection when grid does not have focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InactiveSelectionBackColor2",
+         "NumericDataType": 8,
+         "OSId": "32",
+         "Prototype": "BSTR InactiveSelectionBackColor2",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating how to draw selection when grid does not have focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InactiveSelection",
+         "NumericDataType": 3,
+         "OSId": "33",
+         "Prototype": "long InactiveSelection",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating how to draw forecolor selection when grid does not have focus.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "InactiveSelectionForeColor",
+         "NumericDataType": 8,
+         "OSId": "34",
+         "Prototype": "BSTR InactiveSelectionForeColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether tips are displayed while the user operates scroll bars.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ScrollBarTips",
+         "NumericDataType": 3,
+         "OSId": "35",
+         "Prototype": "long ScrollBarTips",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns current selection backcolor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelectionBackColor",
+         "NumericDataType": 8,
+         "OSId": "36",
+         "Prototype": "BSTR SelectionBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns current selection backcolor2.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelectionBackColor2",
+         "NumericDataType": 8,
+         "OSId": "37",
+         "Prototype": "BSTR SelectionBackColor2",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns current selection forecolor.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelectionForeColor",
+         "NumericDataType": 8,
+         "OSId": "38",
+         "Prototype": "BSTR SelectionForeColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets special operating mode.sgModeNone-0 - Grid is in the standard mode.sgModeListBox - 1 - Grid is in the listbox mode.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SpecialMode",
+         "NumericDataType": 3,
+         "OSId": "39",
+         "Prototype": "long SpecialMode",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the text displayed in the grid's caption bar.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Caption",
+         "NumericDataType": 8,
+         "OSId": "4",
+         "Prototype": "BSTR Caption",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets cell's underlying data value.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Value",
+         "NumericDataType": 8,
+         "OSId": "40",
+         "Prototype": "BSTR Value",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets current row position",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Row",
+         "NumericDataType": 3,
+         "OSId": "41",
+         "Prototype": "long Row",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets current column position",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Col",
+         "NumericDataType": 3,
+         "OSId": "42",
+         "Prototype": "long Col",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the default column width.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DefaultColWidth",
+         "NumericDataType": 3,
+         "OSId": "43",
+         "Prototype": "long DefaultColWidth",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the total number of heading columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HeadingColCount",
+         "NumericDataType": 3,
+         "OSId": "44",
+         "Prototype": "long HeadingColCount",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets TAB key behavior.sgTabControls - 0 - TAB key jumps over controls on the form.sgTabColumns  - 1 - TAB key jumps to next focusable column.sgTabRows     - 2 - TAB key jumps to next focusable row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "TabKeyBehavior",
+         "NumericDataType": 3,
+         "OSId": "45",
+         "Prototype": "long TabKeyBehavior",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets ENTER key behavior.0 - Default ENTER key behavior.1 - ENTER key jumps to next focusable column.2 - ENTER key jumps to next focusable row.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EnterKeyBehavior",
+         "NumericDataType": 3,
+         "OSId": "46",
+         "Prototype": "long EnterKeyBehavior",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the grid border style.0 - No border.1 - Fixed border.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GridBorderStyle",
+         "NumericDataType": 3,
+         "OSId": "47",
+         "Prototype": "long GridBorderStyle",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the scroll bar flags.sgSBNone 0 Scrollbars are not displayed.sgSBVertical   - 1 - Show only vertical scroll bar.sgSBHorizontal - 2 - Show only horizontal scroll bar.sgSBAll- 3 - Show both vertical and horizontal scroll bars.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ScrollBars",
+         "NumericDataType": 3,
+         "OSId": "48",
+         "Prototype": "long ScrollBars",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables scroll bar tracking.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ScrollBarTrack",
+         "NumericDataType": 3,
+         "OSId": "49",
+         "Prototype": "long ScrollBarTrack",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether cell tips are displayed.sgCellTipsNone -Cell tips are not displayed.sgCellTipsStatic-Show static cell tip.sgCellTipsFloat-Show floating cell tip.sgCellTipsUseMap-special case",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellTips",
+         "NumericDataType": 3,
+         "OSId": "5",
+         "Prototype": "long CellTips",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns a zero-based index of the last visible column.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RightCol",
+         "NumericDataType": 3,
+         "OSId": "50",
+         "Prototype": "long RightCol",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets text alignment style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "TextAlignment",
+         "NumericDataType": 3,
+         "OSId": "51",
+         "Prototype": "long TextAlignment",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Enables or disables word wrapping for cell text.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "WordWrap",
+         "NumericDataType": 3,
+         "OSId": "52",
+         "Prototype": "long WordWrap",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets focus rectangle line width. In pixels.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FocusRectLineWidth",
+         "NumericDataType": 3,
+         "OSId": "53",
+         "Prototype": "long FocusRectLineWidth",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets selection mode.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelectionMode",
+         "NumericDataType": 3,
+         "OSId": "54",
+         "Prototype": "long SelectionMode",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Controls multiple selection mode.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MultiSelect",
+         "NumericDataType": 3,
+         "OSId": "55",
+         "Prototype": "long MultiSelect",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the maximum number of rows.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MaxRows",
+         "NumericDataType": 3,
+         "OSId": "56",
+         "Prototype": "long MaxRows",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the maximum number of columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MaxColumns",
+         "NumericDataType": 3,
+         "OSId": "57",
+         "Prototype": "long MaxColumns",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets whether all columns have same width.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EqualColWidth",
+         "NumericDataType": 3,
+         "OSId": "58",
+         "Prototype": "long EqualColWidth",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets whether all rows have same height.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "EqualRowHeight",
+         "NumericDataType": 3,
+         "OSId": "59",
+         "Prototype": "long EqualRowHeight",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the amount of time before cell tip is displayed.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellTipsDelay",
+         "NumericDataType": 3,
+         "OSId": "6",
+         "Prototype": "long CellTipsDelay",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets cells background color.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellBackColor",
+         "NumericDataType": 8,
+         "OSId": "60",
+         "Prototype": "BSTR CellBackColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets cells foreground color.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellForeColor",
+         "NumericDataType": 8,
+         "OSId": "61",
+         "Prototype": "BSTR CellForeColor",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets cells background style.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellBkgStyle",
+         "NumericDataType": 3,
+         "OSId": "62",
+         "Prototype": "long CellBkgStyle",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the space between the contents and inside edges of cells.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellPadding",
+         "NumericDataType": 4,
+         "OSId": "63",
+         "Prototype": "single CellPadding",
+         "StringDataType": "single",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets color for even rows and/or columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColorEven",
+         "NumericDataType": 8,
+         "OSId": "7",
+         "Prototype": "BSTR ColorEven",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets color for odd rows and/or columns.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColorOdd",
+         "NumericDataType": 8,
+         "OSId": "8",
+         "Prototype": "BSTR ColorOdd",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether user may sort column by clicking on the column heading.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ColumnClickSort",
+         "NumericDataType": 3,
+         "OSId": "9",
+         "Prototype": "long ColumnClickSort",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets a value indicating whether cells border line is drawn.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "CellsBorderVisible",
+         "NumericDataType": 3,
+         "OSId": "98",
+         "Prototype": "long CellsBorderVisible",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Default path in which all the images will be stored.",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DefaultGraphicsPath",
+         "NumericDataType": 8,
+         "OSId": "99",
+         "Prototype": "BSTR DefaultGraphicsPath",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      }
+   ]
+}

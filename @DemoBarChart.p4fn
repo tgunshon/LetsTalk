@@ -1,0 +1,3771 @@
+{
+   "Analyst": "",
+   "CalledFunctionInterfaceMap": {"@DemoColorPropertySelector": {"BackColor": {
+      "Description": "Map: BackColor",
+      "Mappings": [
+         {
+            "MappingValue": "$BackColor",
+            "TextTranslationMaximumLength": 0,
+            "TextTranslationMeaningCode": "",
+            "TextTranslationMode": ""
+         },
+         {
+            "MappingValue": "$INPUT",
+            "TextTranslationMaximumLength": 0,
+            "TextTranslationMeaningCode": "",
+            "TextTranslationMode": ""
+         }
+      ]
+   }}},
+   "Contents": [
+      {
+         "AlternateFormatTag": "",
+         "CSSClass": "",
+         "Contents": [
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "ChartSelCycle",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 25,
+               "CustomValidationEvent": 0,
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 32,
+               "GSForecolor": "",
+               "Height": 10,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAttachedWindowGlobal": "N",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "",
+               "IsBold": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRememberSettings": "true",
+               "IsRowAbsolute": "false",
+               "IsSingleClick": "false",
+               "IsSortList": "",
+               "IsSortOnColumnClick": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "MaxHeight": "11",
+               "MaxWidth": "38",
+               "ObjectCode": "LISTBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 9,
+               "Scrollbar": "N",
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "Listbox",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$Listbox",
+               "Width": 33
+            },
+            {
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "ChartSelCycle",
+               "CSSClass": "",
+               "ChartType": "Bar",
+               "ClientDisplay": "Normal",
+               "Column": 60,
+               "CustomValidationEvent": 10,
+               "CycleName": "MainCycle",
+               "Height": 16,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAttachedWindowGlobal": "N",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsNoChange": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsTabStop": "false",
+               "IsVisible": "true",
+               "MaxHeight": "11",
+               "MaxWidth": "38",
+               "ObjectCode": "CHART",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 9,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "SoftProperties": [
+                  {
+                     "Name": "Animation",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "AreaBackground_color",
+                     "Value": "White"
+                  },
+                  {
+                     "Name": "AreaBackground_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AreaBackground_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "AreaBackground_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "AreaBackground_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "AreaBackground_xEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "AreaBackground_xStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "AreaBackground_yEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "AreaBackground_yStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axes_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_majorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_majorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_majorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_majorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Axes_majorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_majorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_majorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_majorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axes_majorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axes_majorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Axes_majorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_minorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_minorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_minorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_minorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Axes_minorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_minorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_minorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_minorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axes_minorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Axes_minorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Axes_minorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_plotline1_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline1_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline1_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline1_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline1_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline1_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_plotline2_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline2_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline2_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline2_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline2_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline2_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_plotline3_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline3_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline3_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline3_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline3_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_plotline3_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Axes_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Axes_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Axes_zoom",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Background_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Background_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Background_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Background_xEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Background_xStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Background_yEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Background_yStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Border_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Border_radius",
+                     "Value": "  6"
+                  },
+                  {
+                     "Name": "Border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "BottomAxis_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_majorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_majorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_majorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_majorGrid_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "BottomAxis_majorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "BottomAxis_majorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_minorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_minorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_minorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_minorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "BottomAxis_minorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "BottomAxis_minorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline1_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline2_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_plotline3_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_title_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "BottomAxis_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "BottomAxis_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "BottomAxis_zoom",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Chart_barType",
+                     "Value": "column"
+                  },
+                  {
+                     "Name": "Chart_barWidth",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Chart_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_fill_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_fill_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Chart_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Chart_fill_xEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Chart_fill_xStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Chart_fill_yEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Chart_fill_yStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Chart_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Chart_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Highlight_enabled",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Highlight_fill_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Highlight_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Highlight_fill_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Highlight_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Highlight_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Highlight_fill_xEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Highlight_fill_xStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Highlight_fill_yEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Highlight_fill_yStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "LeftAxis_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_majorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_majorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_majorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_majorGrid_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "LeftAxis_majorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "LeftAxis_majorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_minorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_minorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_minorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_minorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "LeftAxis_minorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "LeftAxis_minorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline1_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline2_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_plotline3_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "LeftAxis_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "LeftAxis_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "LeftAxis_zoom",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Legend_border_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_border_radius",
+                     "Value": "  6"
+                  },
+                  {
+                     "Name": "Legend_border_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Legend_border_width",
+                     "Value": "  1"
+                  },
+                  {
+                     "Name": "Legend_fill_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_fill_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_fill_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Legend_fill_stops",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_fill_type",
+                     "Value": "solid"
+                  },
+                  {
+                     "Name": "Legend_fill_xEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Legend_fill_xStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Legend_fill_yEnd",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Legend_fill_yStart",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Legend_location",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_margin",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "Legend_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Legend_textStyle_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_textStyle_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_textStyle_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "Legend_title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Legend_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Legend_title_style_size",
+                     "Value": " 12"
+                  },
+                  {
+                     "Name": "Legend_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Palette_colors",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Palette_type",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_majorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_majorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_majorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_majorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "RightAxis_majorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "RightAxis_majorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_minorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_minorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_minorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_minorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "RightAxis_minorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "RightAxis_minorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline1_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline2_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_plotline3_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "RightAxis_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "RightAxis_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "RightAxis_zoom",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Shadows_blur",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Shadows_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Shadows_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "Shadows_xWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Shadows_yWidth",
+                     "Value": "  2"
+                  },
+                  {
+                     "Name": "Title_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "Title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "Title_style_font",
+                     "Value": "Arial Black"
+                  },
+                  {
+                     "Name": "Title_style_size",
+                     "Value": " 15"
+                  },
+                  {
+                     "Name": "Title_text",
+                     "Value": "Demo Bar Chart"
+                  },
+                  {
+                     "Name": "Tooltip_show",
+                     "Value": "true"
+                  },
+                  {
+                     "Name": "TopAxis_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_label_format",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_label_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_label_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_label_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_majorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_majorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_majorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_majorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "TopAxis_majorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "TopAxis_majorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_minorGrid_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_minorGrid_dashes",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_minorGrid_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_minorGrid_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "TopAxis_minorGrid_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_interval",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_length",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_offset",
+                     "Value": "   "
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "TopAxis_minorTick_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline1_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline2_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_align",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_title",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_titleColor",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_value",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_plotline3_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_title_show",
+                     "Value": "false"
+                  },
+                  {
+                     "Name": "TopAxis_title_style_color",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_title_style_font",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_title_style_size",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_title_text",
+                     "Value": ""
+                  },
+                  {
+                     "Name": "TopAxis_width",
+                     "Value": "  "
+                  },
+                  {
+                     "Name": "TopAxis_zoom",
+                     "Value": "false"
+                  }
+               ],
+               "StandardValidation": "",
+               "TagId": "BarChart",
+               "Tooltip": "",
+               "Type": "Field",
+               "Width": 50
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "@DemoColorPropertySelector",
+               "AttachedWindowMapId": "BackColor",
+               "Backcolor": "",
+               "CSSClassc": "",
+               "Column": 38,
+               "CustomValidationEvent": 6,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 32,
+               "GSForecolor": "",
+               "HasScrollbar": "Y",
+               "Height": 10,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAlternatIconGraphicName": "",
+               "IsAlternateIcon": "",
+               "IsAlternateIconGraphicVariable": "",
+               "IsAttachedWindowGlobal": "Y",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsBold": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsHideKey": "false",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsSortList": "",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "COMBOBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 20,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "BackgroundColor",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$BackColor",
+               "Width": 20
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 38,
+               "ColumnHeading": "",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 12,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 30,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "The bar chart title (free text entry)",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 21,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "TitleText",
+               "Tooltip": "The bar chart title (free text entry)",
+               "Type": "Field",
+               "VariableLength": 30,
+               "VariableName": "$TitleText",
+               "Width": 20
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "@VIPW036",
+               "AttachedWindowMapId": "",
+               "Backcolor": "",
+               "CSSClassc": "",
+               "Column": 38,
+               "CustomValidationEvent": 13,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 11,
+               "GSForecolor": "",
+               "HasScrollbar": "Y",
+               "Height": 10,
+               "HelpKeyword": "",
+               "HelpMessage": "The  font used for the bar chart title",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAlternatIconGraphicName": "",
+               "IsAlternateIcon": "",
+               "IsAlternateIconGraphicVariable": "",
+               "IsAttachedWindowGlobal": "Y",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "true",
+               "IsAutoRepeat": "false",
+               "IsBold": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsHideKey": "false",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsSortList": "",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "COMBOBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 22,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "TitleFont",
+               "Tooltip": "The  font used for the bar chart title",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$TitleFont",
+               "Width": 20
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "Normal",
+               "Column": 38,
+               "ColumnHeading": "",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 14,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "LFB",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 9,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "The font size (pixels) 1-50 is valid",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 23,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "NUMERIC",
+               "TagId": "TitleFontSize",
+               "Tooltip": "The font size (pixels) 1-50 is valid",
+               "Type": "Field",
+               "VariableLength": 2,
+               "VariableName": "$TitleFontSize",
+               "Width": 3
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "AttachedWindowId": "BarChartTypes",
+               "Backcolor": "",
+               "CSSClassc": "",
+               "ClientDisplay": "GUI Only",
+               "Column": 38,
+               "CustomValidationEvent": 7,
+               "CycleName": "MainCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 0,
+               "GSForecolor": "",
+               "HasScrollbar": "N",
+               "Height": 7,
+               "HelpKeyword": "",
+               "HelpMessage": "The type of bar chart",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAlternatIconGraphicName": "",
+               "IsAlternateIcon": "",
+               "IsAlternateIconGraphicVariable": "N",
+               "IsAttachedWindowGlobal": "N",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "true",
+               "IsAutoRepeat": "false",
+               "IsBold": "false",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsHideKey": "false",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsSortList": "",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "COMBOBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 24,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "BarChartType",
+               "Tooltip": "The type of bar chart",
+               "Type": "Field",
+               "VariableLength": 32,
+               "VariableName": "$ChartBarType",
+               "Width": 20
+            }
+         ],
+         "CycleEndTag": "BarChartType",
+         "CycleEntryLogic": 1,
+         "CycleExitEvent": 0,
+         "CycleName": "MainCycle",
+         "CycleStartTag": "Listbox",
+         "CycleType": "ManyTime Screen",
+         "DefaultMode": "C",
+         "DetailFormatTag": "",
+         "EODCancelEvent": 0,
+         "FormatTag": "MainCycle",
+         "FunctionKeys": [
+            {
+               "Description": "Exit",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 4,
+               "Number": "  33"
+            },
+            {
+               "Description": "Reset",
+               "FunctionToExecute": "",
+               "GlobalFunction": "",
+               "GlobalFunctionMap": "",
+               "GlobalLogicId": "",
+               "IsDisabled": "",
+               "LocalCycleTag": "",
+               "LocalEvent": 5,
+               "Number": "  34"
+            }
+         ],
+         "GUIBorderEndColumn": 0,
+         "GUIBorderEndRow": 0,
+         "GUIBorderStartColumn": 0,
+         "GUIBorderStartRow": 0,
+         "GUIHeaderEndColumn": 0,
+         "GUIHeaderEndRow": 0,
+         "GUIHeaderStartColumn": 0,
+         "GUIHeaderStartRow": 0,
+         "HelpFileKeyword": "",
+         "IsClearScreen": "true",
+         "IsExpandedPagingHorizontalGrid": "false",
+         "IsExpandedPagingVerticalGrid": "false",
+         "IsNormalPagingHorizontalGrid": "false",
+         "IsNormalPagingVerticalGrid": "false",
+         "IsScaleWallpaper": "false",
+         "IsSortPass": "",
+         "IsSuppressAccessToAugmentedLookupFieldsInDeleteMode": "",
+         "IsSuppressBorder": "false",
+         "IsSuppressConfirmationOnDelete": "",
+         "IsSuppressGUIBorder": "false",
+         "IsWallpaperFilenameRequired": "true",
+         "IterationCounter": "",
+         "LastFileNumber": "00",
+         "LastReadFieldTag": "",
+         "LineNumberPrompt": "",
+         "LineNumberToDisplayScreenMode": 0,
+         "MouseNavigationAllowed": "true",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 0,
+         "ScreenModesAllowed": "C",
+         "ScreenTitle": "",
+         "StaticObjects": [
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": -1,
+               "Graphic": "do_feats_top.jpg",
+               "Height": 6,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "001",
+               "Sequence": "001",
+               "TagId": "HeadingIcon",
+               "Tooltip": "",
+               "Width": 110
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "023",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "FunctionKey": 0,
+               "Graphic": "do_feats_header",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "          Bar Chart & Equivalent Listbox",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "002",
+               "TagId": "TitleIcon",
+               "Tooltip": "",
+               "Width": 88
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "001",
+               "CursorGraphic": "",
+               "DisabledGraphic": "",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "FunctionKey": 0,
+               "Graphic": "do_feats_frame",
+               "Height": 24,
+               "IsBold": "false",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "007",
+               "Sequence": "003",
+               "TagId": "ControlPanel",
+               "Tooltip": "",
+               "Width": 22
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "white",
+               "FunctionKey": 34,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      Reset",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "010",
+               "Sequence": "004",
+               "TagId": "Reset",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "white",
+               "FunctionKey": 33,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "      E&xit",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "016",
+               "Sequence": "005",
+               "TagId": "Exit",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Tahoma",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "true",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Description",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "026",
+               "Sequence": "006",
+               "TagId": "DescriptionPrompt",
+               "Tooltip": "",
+               "Width": 18
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 2,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Both the listbox and the bar chart retrieve data from the same selection cycle. Clicking on the \"Change Data\" button will allow you to modify the listbox contents. Both the listbox and the bar chart will refresh automatically.",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "027",
+               "Sequence": "007",
+               "TagId": "Description1",
+               "Tooltip": "",
+               "Width": 75
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Background Color",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "020",
+               "Sequence": "008",
+               "TagId": "BackgroundColorprompt",
+               "Tooltip": "",
+               "Width": 14
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "TitleText",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Title Text",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "021",
+               "Sequence": "009",
+               "TagId": "TitleTextPrompt",
+               "Tooltip": "The bar chart tit;le (free text entry)",
+               "Width": 14
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Title Font",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "022",
+               "Sequence": "010",
+               "TagId": "TitleFontPrompt",
+               "Tooltip": "The  font used for the bar chart title",
+               "Width": 14
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "TitleFontSize",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Title Font Size",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "023",
+               "Sequence": "011",
+               "TagId": "TitleFontSizeprompt",
+               "Tooltip": "The font size (pixels) 1-50 is valid",
+               "Width": 14
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "B",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 1,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Chart Type",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "024",
+               "Sequence": "012",
+               "TagId": "ChartTypePrompt",
+               "Tooltip": "The type of line chart",
+               "Width": 14
+            },
+            {
+               "Alignment": "L",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "",
+               "Column": "025",
+               "Fontname": "Arial",
+               "Forecolor": "white",
+               "GSBackcolor": "",
+               "GSForecolor": "",
+               "GUIWidth": 0,
+               "Height": 2,
+               "IsBold": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsInset": "false",
+               "IsItalic": "false",
+               "IsRaised": "false",
+               "IsScaled": "false",
+               "IsStrikeout": "false",
+               "IsTextbox": "true",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "Label": "Properties values can be modified. Giving an invalid property value the tooltip for each property is indicative) will give default behavior at run time.",
+               "LabelTooltip": "",
+               "ObjectType": "TEXT",
+               "Row": "029",
+               "Sequence": "013",
+               "TagId": "Description2",
+               "Tooltip": "",
+               "Width": 75
+            },
+            {
+               "Alignment": "4",
+               "AssociatedTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "J",
+               "Column": "003",
+               "CursorGraphic": "",
+               "DisabledGraphic": "do_menu_button",
+               "DragData": "",
+               "DragType": "",
+               "DropDataVariable": "",
+               "DropItemLimit": "",
+               "DropTypeAllowed": "",
+               "Fontname": "",
+               "Forecolor": "White",
+               "FunctionKey": 36,
+               "Graphic": "do_menu_button",
+               "Height": 1,
+               "IsBold": "true",
+               "IsDragEnabled": "false",
+               "IsDropEnabled": "false",
+               "IsEnabled": "true",
+               "IsGraphicVariable": "",
+               "IsItalic": "false",
+               "IsLabelVariable": "",
+               "IsScaled": "true",
+               "IsStrikeout": "false",
+               "IsSuppressLabel": "",
+               "IsUnderline": "false",
+               "IsVisible": "false",
+               "Label": "      &Change Data",
+               "LabelTooltip": "",
+               "MouseOverGraphic": "do_menu_button_over",
+               "MouseOverLabel": "",
+               "MousePressedGraphic": "",
+               "MousePressedLabel": "",
+               "Name": "",
+               "ObjectLabel": "",
+               "ObjectType": "ICON",
+               "ResponseString": "",
+               "Row": "013",
+               "Sequence": "014",
+               "TagId": "ChangeData",
+               "Tooltip": "Click to modify the listbox contents",
+               "Width": 18
+            }
+         ],
+         "Type": "Cycle",
+         "WallpaperImageFileName": "do_feats_purple",
+         "WindowEndColumn": 0,
+         "WindowEndRow": 0,
+         "WindowStartColumn": 0,
+         "WindowStartRow": 0
+      },
+      {
+         "Contents": [
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 1,
+               "ColumnHeading": "",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "",
+               "FileAccessors": [{
+                  "AccessModeWhenScreenInAddMode": "L",
+                  "AccessModeWhenScreenInChangeMode": "L",
+                  "AccessModeWhenScreenInDeleteMode": "L",
+                  "AccessModeWhenScreenInLookMode": "L",
+                  "AfterFailedReadEvent": 0,
+                  "AfterFailedWriteEvent": 0,
+                  "AfterSuccessfulReadEvent": 18,
+                  "AfterSuccessfulWriteEvent": 0,
+                  "BeforeReadEvent": 0,
+                  "BeforeWriteEvent": 0,
+                  "FileAccessorName": "DemoSalesByPeriod",
+                  "FileAccessorReadTag": "ListKey",
+                  "FileAccessorReturnTag": "ListKey",
+                  "IsFileInSortPass": "",
+                  "IsPrimaryFile": "Y",
+                  "IsSuppressFileRead": "false",
+                  "KeyMappingEvent": 0,
+                  "RecordLockedEvent": 0,
+                  "Type": "File"
+               }],
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 32,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "ListKey",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 11,
+               "VariableName": "$ListKey",
+               "Width": 1
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "Normal",
+               "Column": 1,
+               "ColumnHeading": "Month",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 10,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "SelMonth",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 10,
+               "VariableName": "Month",
+               "Width": 10
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 1,
+               "ColumnHeading": "Week",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 0,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "false",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "SelWeek",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 10,
+               "VariableName": "Week",
+               "Width": 10
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "ClientDisplay": "Normal",
+               "Column": 1,
+               "ColumnHeading": "CD",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "6.0",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 5,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "N",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "CD",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 5,
+               "VariableName": "UnitsSold(1)",
+               "Width": 8
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 1,
+               "ColumnHeading": "DVD",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "6.0",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 10,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "DVD",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 10,
+               "VariableName": "UnitsSold(2)",
+               "Width": 8
+            },
+            {
+               "Alignment": "Default",
+               "AssociatedFieldTagId": "",
+               "Backcolor": "",
+               "CSSClass": "",
+               "Column": 1,
+               "ColumnHeading": "SACD",
+               "ColumnHeadingTranslationMaximumLength": 0,
+               "ColumnHeadingTranslationMeaningCode": "",
+               "ColumnHeadingTranslationMode": "",
+               "CustomValidationEvent": 0,
+               "CycleName": "ChartSelCycle",
+               "DisplayMask": "6.0",
+               "FillCode": "",
+               "Fontname": "",
+               "Forecolor": "",
+               "GSBackcolor": "",
+               "GSDisplayWidth": 6,
+               "GSForecolor": "",
+               "Height": 1,
+               "HelpKeyword": "",
+               "HelpMessage": "",
+               "HelpMessageTranslationMaxLength": 0,
+               "HelpMessageTranslationMeaningCode": "",
+               "HelpMessageTranslationMode": "",
+               "IsAcceptFocusInLookup": "",
+               "IsAllowDoubleBytes": "",
+               "IsAutoCompletMode": "",
+               "IsAutoComplete": "false",
+               "IsAutoRepeat": "false",
+               "IsAutoScrollbar": "",
+               "IsBold": "false",
+               "IsCharacterWrap": "",
+               "IsDisplayOnly": "false",
+               "IsEnabled": "true",
+               "IsGSBlink": "",
+               "IsGSBox": "",
+               "IsGSHide": "",
+               "IsGSHighlight": "",
+               "IsGSNormalIntensity": "",
+               "IsGSReverse": "",
+               "IsGSUnderline": "",
+               "IsItalic": "false",
+               "IsLSPreload": "",
+               "IsMustInput": "false",
+               "IsNoChange": "false",
+               "IsOverride": "false",
+               "IsPagingColumnHeaderBold": "false",
+               "IsPagingColumnHeaderItalic": "false",
+               "IsPagingColumnHeaderSortOnColumnClick": "false",
+               "IsPagingColumnHeaderStrikeout": "false",
+               "IsPagingColumnHeaderUnderline": "false",
+               "IsRowAbsolute": "false",
+               "IsStrikeout": "false",
+               "IsTabStop": "false",
+               "IsUnderline": "false",
+               "IsVisible": "true",
+               "ObjectCode": "EDITBOX",
+               "OnFocusEvent": 0,
+               "OnLostFocusEvent": 0,
+               "OnRefreshEvent": 0,
+               "OnWindowEvent": 0,
+               "PagingColumnHeader": "",
+               "PagingColumnHeaderAlignment": "",
+               "PagingColumnHeaderBackcolor": "",
+               "PagingColumnHeaderFontName": "",
+               "PagingColumnHeaderForecolor": "",
+               "RightClickMenu": "",
+               "Row": 1,
+               "SecurityLevelChange": 0,
+               "SecurityLevelLook": 0,
+               "StandardValidation": "",
+               "TagId": "SACD",
+               "Tooltip": "",
+               "Type": "Field",
+               "VariableLength": 6,
+               "VariableName": "UnitsSold(3)",
+               "Width": 9
+            }
+         ],
+         "CycleEndTag": "SACD",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "ChartSelCycle",
+         "CycleStartTag": "ListKey",
+         "CycleType": "Selection Cycle(File)",
+         "DefaultMode": "L",
+         "EODCancelEvent": 0,
+         "IsSortVariable1Descending": "false",
+         "IterationCounter": "",
+         "LastFileNumber": "01",
+         "LastReadFieldTag": "",
+         "PrimaryFileName": "DemoSalesByPeriod",
+         "ScreenModeChangedEvent": 2,
+         "ScreenModesAllowed": "L",
+         "SortEvent": 9,
+         "SortSelectControlFlag": "sort",
+         "SortVariable1": "#a",
+         "Type": "Cycle"
+      },
+      {
+         "ArraySize": 6,
+         "Contents": [{
+            "Alignment": "Default",
+            "AssociatedFieldTagId": "",
+            "Backcolor": "",
+            "CSSClass": "",
+            "ClientDisplay": "Normal",
+            "Column": 1,
+            "ColumnHeading": "Bar Chart Type",
+            "ColumnHeadingTranslationMaximumLength": 0,
+            "ColumnHeadingTranslationMeaningCode": "",
+            "ColumnHeadingTranslationMode": "",
+            "CustomValidationEvent": 0,
+            "CycleName": "BarChartTypes",
+            "DisplayMask": "",
+            "FillCode": "",
+            "Fontname": "",
+            "Forecolor": "",
+            "GSBackcolor": "",
+            "GSDisplayWidth": 32,
+            "GSForecolor": "",
+            "Height": 1,
+            "HelpKeyword": "",
+            "HelpMessage": "",
+            "HelpMessageTranslationMaxLength": 0,
+            "HelpMessageTranslationMeaningCode": "",
+            "HelpMessageTranslationMode": "",
+            "IsAcceptFocusInLookup": "",
+            "IsAllowDoubleBytes": "",
+            "IsAutoCompletMode": "",
+            "IsAutoComplete": "false",
+            "IsAutoRepeat": "false",
+            "IsAutoScrollbar": "N",
+            "IsBold": "false",
+            "IsCharacterWrap": "",
+            "IsDisplayOnly": "false",
+            "IsEnabled": "true",
+            "IsGSBlink": "",
+            "IsGSBox": "",
+            "IsGSHide": "",
+            "IsGSHighlight": "",
+            "IsGSNormalIntensity": "",
+            "IsGSReverse": "",
+            "IsGSUnderline": "",
+            "IsItalic": "false",
+            "IsLSPreload": "",
+            "IsMustInput": "false",
+            "IsNoChange": "false",
+            "IsOverride": "false",
+            "IsPagingColumnHeaderBold": "false",
+            "IsPagingColumnHeaderItalic": "false",
+            "IsPagingColumnHeaderSortOnColumnClick": "false",
+            "IsPagingColumnHeaderStrikeout": "false",
+            "IsPagingColumnHeaderUnderline": "false",
+            "IsRowAbsolute": "false",
+            "IsStrikeout": "false",
+            "IsTabStop": "false",
+            "IsUnderline": "false",
+            "IsVisible": "true",
+            "ObjectCode": "EDITBOX",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "OnRefreshEvent": 0,
+            "OnWindowEvent": 0,
+            "PagingColumnHeader": "",
+            "PagingColumnHeaderAlignment": "",
+            "PagingColumnHeaderBackcolor": "",
+            "PagingColumnHeaderFontName": "",
+            "PagingColumnHeaderForecolor": "",
+            "RightClickMenu": "",
+            "Row": 1,
+            "SecurityLevelChange": 0,
+            "SecurityLevelLook": 0,
+            "StandardValidation": "",
+            "TagId": "ChartBartypes",
+            "Tooltip": "",
+            "Type": "Field",
+            "VariableLength": 16,
+            "VariableName": "$ChartBarTypes(@PSEQ)",
+            "Width": 32
+         }],
+         "CycleEndTag": "ChartBartypes",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "BarChartTypes",
+         "CycleStartTag": "ChartBartypes",
+         "CycleType": "Selection Cycle(Array)",
+         "DefaultMode": "L",
+         "EODCancelEvent": 0,
+         "IterationCounter": "",
+         "LastFileNumber": "00",
+         "PrimaryFileName": "",
+         "ScreenModeChangedEvent": 0,
+         "ScreenModesAllowed": "L",
+         "SortEvent": 0,
+         "Type": "Cycle"
+      },
+      {
+         "AlternateFormatTag": "",
+         "CSSClass": "",
+         "Contents": [{
+            "CycleName": "PopulateChartDetailsDataFile",
+            "FileAccessors": [{
+               "AccessModeWhenScreenInAddMode": "B",
+               "AccessModeWhenScreenInChangeMode": "B",
+               "AccessModeWhenScreenInDeleteMode": "B",
+               "AccessModeWhenScreenInLookMode": "B",
+               "AfterFailedReadEvent": 0,
+               "AfterFailedWriteEvent": 0,
+               "AfterSuccessfulReadEvent": 0,
+               "AfterSuccessfulWriteEvent": 0,
+               "BeforeReadEvent": 0,
+               "BeforeWriteEvent": 8,
+               "FileAccessorName": "DemoSalesByPeriod",
+               "FileAccessorReadTag": "Dummy1",
+               "FileAccessorReturnTag": "Dummy1",
+               "IsFileInSortPass": "",
+               "IsPrimaryFile": "Y",
+               "IsSuppressFileRead": "false",
+               "KeyMappingEvent": 0,
+               "RecordLockedEvent": 0,
+               "Type": "File"
+            }],
+            "IsEnabled": "true",
+            "ObjectCode": "DUMMY",
+            "OnFocusEvent": 0,
+            "OnLostFocusEvent": 0,
+            "TagId": "Dummy1",
+            "Type": "Field"
+         }],
+         "CycleEndTag": "Dummy1",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "PopulateChartDetailsDataFile",
+         "CycleStartTag": "Dummy1",
+         "CycleType": "OneTime Screen",
+         "DefaultMode": "A",
+         "DetailFormatTag": "",
+         "EODCancelEvent": 0,
+         "FormatTag": "",
+         "GUIBorderEndColumn": 0,
+         "GUIBorderEndRow": 0,
+         "GUIBorderStartColumn": 0,
+         "GUIBorderStartRow": 0,
+         "GUIHeaderEndColumn": 0,
+         "GUIHeaderEndRow": 0,
+         "GUIHeaderStartColumn": 0,
+         "GUIHeaderStartRow": 0,
+         "HelpFileKeyword": "",
+         "IsClearScreen": "false",
+         "IsExpandedPagingHorizontalGrid": "false",
+         "IsExpandedPagingVerticalGrid": "false",
+         "IsNormalPagingHorizontalGrid": "false",
+         "IsNormalPagingVerticalGrid": "false",
+         "IsScaleWallpaper": "false",
+         "IsSortPass": "",
+         "IsSuppressAccessToAugmentedLookupFieldsInDeleteMode": "",
+         "IsSuppressBorder": "false",
+         "IsSuppressConfirmationOnDelete": "",
+         "IsSuppressGUIBorder": "false",
+         "IsWallpaperFilenameRequired": "false",
+         "IterationCounter": "",
+         "LastFileNumber": "01",
+         "LastReadFieldTag": "",
+         "LineNumberPrompt": "",
+         "LineNumberToDisplayScreenMode": 0,
+         "MouseNavigationAllowed": "true",
+         "PrimaryFileName": "DemoSalesByPeriod",
+         "ScreenModeChangedEvent": 0,
+         "ScreenModesAllowed": "A",
+         "ScreenTitle": "",
+         "Type": "Cycle",
+         "WallpaperImageFileName": "",
+         "WindowEndColumn": 0,
+         "WindowEndRow": 0,
+         "WindowStartColumn": 0,
+         "WindowStartRow": 0
+      },
+      {
+         "Contents": [
+            {
+               "AccessModeWhenScreenInAddMode": "L",
+               "AccessModeWhenScreenInChangeMode": "L",
+               "AccessModeWhenScreenInDeleteMode": "L",
+               "AccessModeWhenScreenInLookMode": "L",
+               "AfterFailedReadEvent": 0,
+               "AfterFailedWriteEvent": 0,
+               "AfterSuccessfulReadEvent": 0,
+               "AfterSuccessfulWriteEvent": 0,
+               "BeforeReadEvent": 0,
+               "BeforeWriteEvent": 0,
+               "FileAccessorName": "DemoSalesByPeriod",
+               "IsFileInSortPass": "",
+               "IsPrimaryFile": "",
+               "IsSuppressFileRead": "false",
+               "KeyMappingEvent": 0,
+               "RecordLockedEvent": 0,
+               "Type": "File"
+            },
+            {
+               "AccessModeWhenScreenInAddMode": "B",
+               "AccessModeWhenScreenInChangeMode": "B",
+               "AccessModeWhenScreenInDeleteMode": "B",
+               "AccessModeWhenScreenInLookMode": "B",
+               "AfterFailedReadEvent": 0,
+               "AfterFailedWriteEvent": 0,
+               "AfterSuccessfulReadEvent": 0,
+               "AfterSuccessfulWriteEvent": 0,
+               "BeforeReadEvent": 17,
+               "BeforeWriteEvent": 11,
+               "FileAccessorName": "DemoSalesByPeriod1",
+               "IsFileInSortPass": "",
+               "IsPrimaryFile": "",
+               "IsSuppressFileRead": "false",
+               "KeyMappingEvent": 0,
+               "RecordLockedEvent": 0,
+               "Type": "File"
+            }
+         ],
+         "CycleEndTag": "",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "PopulateChartSummaryDataFile",
+         "CycleStartTag": "",
+         "CycleType": "Update Cycle",
+         "DefaultMode": "L",
+         "EODCancelEvent": 0,
+         "IterationCounter": "",
+         "LastFileNumber": "02",
+         "LastReadFieldTag": "",
+         "MouseNavigationAllowed": "false",
+         "PrimaryFileName": "DemoSalesByPeriod",
+         "ScreenModeChangedEvent": 3,
+         "ScreenModesAllowed": "L",
+         "SortEvent": 0,
+         "Type": "Cycle"
+      },
+      {
+         "Contents": [{
+            "AccessModeWhenScreenInAddMode": "D",
+            "AccessModeWhenScreenInChangeMode": "D",
+            "AccessModeWhenScreenInDeleteMode": "D",
+            "AccessModeWhenScreenInLookMode": "D",
+            "AfterFailedReadEvent": 0,
+            "AfterFailedWriteEvent": 0,
+            "AfterSuccessfulReadEvent": 0,
+            "AfterSuccessfulWriteEvent": 0,
+            "BeforeReadEvent": 0,
+            "BeforeWriteEvent": 0,
+            "FileAccessorName": "DemoSalesByPeriod",
+            "IsFileInSortPass": "",
+            "IsPrimaryFile": "",
+            "IsSuppressFileRead": "false",
+            "KeyMappingEvent": 0,
+            "RecordLockedEvent": 0,
+            "Type": "File"
+         }],
+         "CycleEndTag": "",
+         "CycleEntryLogic": 0,
+         "CycleExitEvent": 0,
+         "CycleName": "InitialiseChartSummaryDataFile",
+         "CycleStartTag": "",
+         "CycleType": "Update Cycle",
+         "DefaultMode": "",
+         "EODCancelEvent": 0,
+         "IterationCounter": "",
+         "LastFileNumber": "01",
+         "LastReadFieldTag": "",
+         "MouseNavigationAllowed": "false",
+         "PrimaryFileName": "DemoSalesByPeriod",
+         "ScreenModeChangedEvent": 3,
+         "ScreenModesAllowed": "L",
+         "SortEvent": 0,
+         "Type": "Cycle"
+      }
+   ],
+   "ErrorFunction": "DEMO",
+   "Events": {
+      "001": [
+         "//Set initial values for Bar chart.",
+         "$BackColor     = BarChart.AreaBackground_color",
+         "$TitleText     = BarChart.Title_text",
+         "$TitleFont     = BarChart.Title_style_font",
+         "$TitleFontSize = conv(BarChart.Title_style_size)",
+         "$ChartBarType  = BarChart.Chart_barType",
+         "//",
+         "//Set the chart Bar types that we can offer.",
+         "//",
+         "$ChartBarTypes(1) = 'bar'",
+         "$ChartBarTypes(2) = 'column'",
+         "$ChartBarTypes(3) = 'stacked100Bar'",
+         "$ChartBarTypes(4) = 'stacked100Column'",
+         "$ChartBarTypes(5) = 'stackedBar'",
+         "$ChartBarTypes(6) = 'stackedColumn'",
+         "//",
+         "//Populate chart data file with initial values.",
+         "//",
+         "#seed = 137 //Use this as the seed for the data generation.",
+         "lscall(\"InitialiseChartSummaryDataFile\") //in case this is not the first time this function has been",
+         "                                         //executed in this session.",
+         "//",
+         "for #a = 1 to 12",
+         "   case #a",
+         "      when 1 :",
+         "         Month = 'Jan'",
+         "      when 2 :",
+         "         Month = 'Feb'",
+         "      when 3 :",
+         "         Month = 'Mar'",
+         "      when 4 :",
+         "         Month = 'Apr'",
+         "      when 5 :",
+         "         Month = 'May'",
+         "      when 6 :",
+         "         Month = 'Jun'",
+         "      when 7 :",
+         "         Month = 'Jul'",
+         "      when 8 :",
+         "         Month = 'Aug'",
+         "      when 9 :",
+         "         Month = 'Sep'",
+         "      when 10 :",
+         "         Month = 'Oct'",
+         "      when 11 :",
+         "         Month = 'Nov'",
+         "      when 12 :",
+         "         Month = 'Dec'",
+         "   endcase",
+         "   //",
+         "   for #b = 1 to 4",
+         "      Week = 'Week ' + conv(#b)",
+         "      //",
+         "      for #c = 1 to 3",
+         "         lscall(\"PopulateChartDetailsDataFile\")",
+         "      endfor",
+         "      //",
+         "   endfor",
+         "   //",
+         "endfor",
+         "//",
+         "lscall(\"PopulateChartSummaryDataFile\")"
+      ],
+      "002": [
+         "//Select all records on file if this is the initial state otherwise select specific month.",
+         "",
+         "if $InitialState = '' then",
+         "   Month                          = ''",
+         "   sel-partial(Month)",
+         "   BarChart.BottomAxis_title_text = 'Months' //Set the bottom axis title text",
+         "else",
+         "   Month                          = $SelectMonth",
+         "   sel-only(Month)",
+         "   BarChart.BottomAxis_title_text = 'Weeks' //Set the bottom axis title text",
+         "endif"
+      ],
+      "003": [
+         "//Select all motnhs.",
+         "Month = ''",
+         "sel-partial(Month)"
+      ],
+      "004": [
+         "//Exit to DEMO",
+         "lsexit"
+      ],
+      "005": [
+         "//Reset the line chart values to the defaults.",
+         "$BackColor                    = 'White'",
+         "$TitleText                    = 'Demo Bar Chart'",
+         "$TitleFont                    = 'Arial Black'",
+         "$TitleFontSize                = '15'",
+         "$ChartBarType                 = 'column'",
+         "lscall(\"PopulateChartSummaryDataFile\")",
+         "BarChart.AreaBackground_color = $BackColor",
+         "BarChart.Title_text           = $TitleText",
+         "BarChart.Title_style_font     = $TitleFont",
+         "BarChart.Title_style_size     = conv($TitleFontSize)",
+         "BarChart.Chart_barType        = $ChartBarType",
+         "BackgroundColor.Refresh()",
+         "TitleText.Refresh()",
+         "TitleFont.Refresh()",
+         "TitleFontSize.Refresh()",
+         "BarChartType.Refresh()",
+         "$InitialState                 = ''",
+         "$SelectMonth                  = ''",
+         "SelMonth.Visible              = True",
+         "SelWeek.Visible               = False",
+         "BarChart.Refresh()",
+         "Listbox.Refresh()"
+      ],
+      "006": [
+         "//Set the chart backcolor.",
+         "BarChart.AreaBackground_color = $INPUT"
+      ],
+      "007": [
+         "//Set the chart type.",
+         "BarChart.Chart_barType = $INPUT"
+      ],
+      "008": [
+         "//Randomly generate values to make the line chart look realistic.",
+         "$num = pic((#seed * #seed),'99999999')",
+         "$num = $num(3,6)",
+         "//",
+         "if $num(len($num),len($num)) = '0'",
+         "   $num = $num(1,(len($num) - 1))",
+         "endif",
+         "//",
+         "UnitsSold(#c) = conv($num)",
+         "#seed        += conv($num) + #lastnum",
+         "#lastnum      = UnitsSold(#c)"
+      ],
+      "009": [
+         "//Sort the data in month order.",
+         "//",
+         "case Month(1,3)",
+         "   when 'Jan' :",
+         "      #a = 1",
+         "   when 'Feb' :",
+         "      #a = 2",
+         "   when 'Mar' :",
+         "      #a = 3",
+         "   when 'Apr' :",
+         "      #a = 4",
+         "   when 'May' :",
+         "      #a = 5",
+         "   when 'Jun' :",
+         "      #a = 6",
+         "   when 'Jul' :",
+         "      #a = 7",
+         "   when 'Aug' :",
+         "      #a = 8",
+         "   when 'Sep' :",
+         "      #a = 9",
+         "   when 'Oct' :",
+         "      #a = 10",
+         "   when 'Nov' :",
+         "      #a = 11",
+         "   when 'Dec' :",
+         "      #a = 12",
+         "endcase"
+      ],
+      "010": [
+         "//Drill down",
+         "$ClickedMonth = BarChart.RowId",
+         "//",
+         "if $ClickedMonth # '' then",
+         "   //",
+         "   if $InitialState = '' then",
+         "      $InitialState    = 'N'",
+         "      $SelectMonth     = $ClickedMonth(1,3)",
+         "      SelMonth.Visible = False",
+         "      SelWeek.Visible  = True",
+         "   else //Clicking on a node will now return the chart to its initial state.",
+         "      $InitialState    = ''",
+         "      $SelectMonth     = ''",
+         "      SelMonth.Visible = True",
+         "      SelWeek.Visible  = False",
+         "   endif",
+         "   //",
+         "   BarChart.Refresh()",
+         "   Listbox.Refresh()",
+         "endif"
+      ],
+      "011": [
+         "//Accumulate product totals.",
+         "//",
+         "for #d = 1 to 3",
+         "   UnitsSold_1(#d) += UnitsSold(#d)",
+         "endfor"
+      ],
+      "012": [
+         "//Set the title text.",
+         "BarChart.Title_text = $INPUT"
+      ],
+      "013": [
+         "//Set the title font.",
+         "BarChart.Title_style_font = $INPUT"
+      ],
+      "014": [
+         "//Set the title font size.",
+         "BarChart.Title_style_size = conv($INPUT)"
+      ],
+      "017": [
+         "//Set key to accumulate monthly totals.",
+         "Month_1 = Month",
+         "Week_1  = '*'"
+      ],
+      "018": [
+         "//Set list key variable.",
+         "$ListKey = Month(1,10) + Week",
+         "//",
+         "//if a specific month selected then deselect the total record.",
+         "//",
+         "if $InitialState # '' then",
+         "   //",
+         "   if Week = '*' then",
+         "      dsel",
+         "   endif",
+         "   //",
+         "else",
+         "   //",
+         "   if Week # '*' then",
+         "      dsel",
+         "   endif",
+         "   //",
+         "endif"
+      ]
+   },
+   "ExitFunction": "DEMO",
+   "FunctionEntryEvent": 0,
+   "FunctionExitEvent": 0,
+   "FunctionParameters": [],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "false",
+   "IsNoReturnData": "false",
+   "IsSuppressLines": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 1,
+   "Name": "@DemoBarChart",
+   "Password": "",
+   "ScratchVariables": [
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#a"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#b"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#c"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#d"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#lastnum"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 12,
+         "Name": "#seed"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$BackColor"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$ChartBarType"
+      },
+      {
+         "ArraySize": 6,
+         "Description": "",
+         "Length": 32,
+         "Name": "$ChartBarTypes"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 10,
+         "Name": "$ClickedMonth"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 1,
+         "Name": "$InitialState"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 11,
+         "Name": "$ListKey"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$Listbox"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 10,
+         "Name": "$SelectMonth"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 32,
+         "Name": "$TitleFont"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 2,
+         "Name": "$TitleFontSize"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 30,
+         "Name": "$TitleText"
+      },
+      {
+         "ArraySize": 0,
+         "Description": "",
+         "Length": 6,
+         "Name": "$num"
+      }
+   ],
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "Bar Chart",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Screen"
+}

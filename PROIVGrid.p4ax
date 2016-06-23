@@ -1,0 +1,508 @@
+{
+   "Class": "{A61B1001-C4D0-4E8F-8409-D657F348C0B7}",
+   "ControlId": "PROIVGrid",
+   "Description": "",
+   "FileDescription": "PROIVGrid ActiveX Control module (v1.0)",
+   "HelpFile": "",
+   "ImplementationFile": "C:\\PRO55\\PROIVG~1.OCX",
+   "IsJavaScript": "false",
+   "Meta": {
+      "Type": "p4ax",
+      "Version": "1"
+   },
+   "Name": "PROIVGrid Control",
+   "ProgramId": "PROIV.Grid.1",
+   "PropertyMethods": [
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OnClick",
+         "NumericDataType": 24,
+         "OSId": "1",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "void _stdcall OnClick(BSTR CellRange);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AboutBox",
+         "NumericDataType": 24,
+         "OSId": "-552",
+         "Prototype": "void _stdcall AboutBox(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetBold",
+         "NumericDataType": 24,
+         "OSId": "10",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Bold",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall SetBold(BSTR CellRange, boolean Bold);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetItalic",
+         "NumericDataType": 24,
+         "OSId": "11",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Italic",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall SetItalic(BSTR CellRange, boolean Italic);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetUnderline",
+         "NumericDataType": 24,
+         "OSId": "12",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Underline",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall SetUnderline(BSTR CellRange, boolean Underline);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetStrikeout",
+         "NumericDataType": 24,
+         "OSId": "13",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Strikeout",
+               "NumericDataType": 11,
+               "OSId": "2",
+               "StringDataType": "boolean"
+            }
+         ],
+         "Prototype": "void _stdcall SetStrikeout(BSTR CellRange, boolean Strikeout);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "LoadFile",
+         "NumericDataType": 10,
+         "OSId": "14",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "sFilename",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "SCODE _stdcall LoadFile(BSTR sFilename);",
+         "StringDataType": "SCODE",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SaveFile",
+         "NumericDataType": 10,
+         "OSId": "15",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "sFilename",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "SCODE _stdcall SaveFile(BSTR sFilename);",
+         "StringDataType": "SCODE",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Print",
+         "NumericDataType": 24,
+         "OSId": "16",
+         "Prototype": "void _stdcall Print(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetData",
+         "NumericDataType": 8,
+         "OSId": "17",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "BSTR _stdcall GetData(BSTR CellRange);",
+         "StringDataType": "BSTR",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoSize",
+         "NumericDataType": 24,
+         "OSId": "18",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "nAutoSizeStyle",
+            "NumericDataType": 2,
+            "OSId": "1",
+            "StringDataType": "short"
+         }],
+         "Prototype": "void _stdcall AutoSize(short nAutoSizeStyle);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Tree",
+         "NumericDataType": 24,
+         "OSId": "19",
+         "Prototype": "void _stdcall Tree(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetBold",
+         "NumericDataType": 11,
+         "OSId": "20",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "boolean _stdcall GetBold(BSTR CellRange);",
+         "StringDataType": "boolean",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetUnderline",
+         "NumericDataType": 11,
+         "OSId": "21",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "boolean _stdcall GetUnderline(BSTR CellRange);",
+         "StringDataType": "boolean",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetItalic",
+         "NumericDataType": 11,
+         "OSId": "22",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "boolean _stdcall GetItalic(BSTR CellRange);",
+         "StringDataType": "boolean",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetStrikeout",
+         "NumericDataType": 11,
+         "OSId": "23",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "CellRange",
+            "NumericDataType": 8,
+            "OSId": "1",
+            "StringDataType": "BSTR"
+         }],
+         "Prototype": "boolean _stdcall GetStrikeout(BSTR CellRange);",
+         "StringDataType": "boolean",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetText",
+         "NumericDataType": 24,
+         "OSId": "6",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Text",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall SetText(BSTR CellRange, BSTR Text);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetForeColor",
+         "NumericDataType": 24,
+         "OSId": "7",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Color",
+               "NumericDataType": 29,
+               "OSId": "2",
+               "StringDataType": "OLE_COLOR"
+            }
+         ],
+         "Prototype": "void _stdcall SetForeColor(BSTR CellRange, OLE_COLOR Color);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetBackColor",
+         "NumericDataType": 24,
+         "OSId": "8",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "Color",
+               "NumericDataType": 29,
+               "OSId": "2",
+               "StringDataType": "OLE_COLOR"
+            }
+         ],
+         "Prototype": "void _stdcall SetBackColor(BSTR CellRange, OLE_COLOR Color);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SetFontName",
+         "NumericDataType": 24,
+         "OSId": "9",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "CellRange",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "FontName",
+               "NumericDataType": 8,
+               "OSId": "2",
+               "StringDataType": "BSTR"
+            }
+         ],
+         "Prototype": "void _stdcall SetFontName(BSTR CellRange, BSTR FontName);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ImageListFileName",
+         "NumericDataType": 8,
+         "OSId": "1",
+         "Prototype": "BSTR ImageListFileName",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FixedRows",
+         "NumericDataType": 3,
+         "OSId": "2",
+         "Prototype": "long FixedRows",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FixedColumns",
+         "NumericDataType": 3,
+         "OSId": "3",
+         "Prototype": "long FixedColumns",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HScroll",
+         "NumericDataType": 11,
+         "OSId": "4",
+         "Prototype": "boolean HScroll",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "VScroll",
+         "NumericDataType": 11,
+         "OSId": "5",
+         "Prototype": "boolean VScroll",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      }
+   ]
+}

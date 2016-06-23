@@ -1,0 +1,29 @@
+{
+   "Description": "Convert Input to Mixed Case",
+   "Lines": [
+      "$NEW = 'Y'",
+      "FOR #A = 1 TO LEN($INPUT)",
+      "   IF $INPUT(#A,#A) = '','_' THEN",
+      "      $NEW = 'Y'",
+      "      LOOPNEXT",
+      "   ENDIF",
+      "   IF $NEW = 'Y' THEN",
+      "      $NEW = ''",
+      "      IF $INPUT(#A,#A) IN-RANGE 'A','Z' OR $INPUT(#A,#A) IN-RANGE 'a','z'",
+      "         $INPUT(#A,#A) = upper_case($INPUT(#A,#A))",
+      "      ENDIF",
+      "   ELSE",
+      "      IF $INPUT(#A,#A) IN-RANGE 'A','Z' OR $INPUT(#A,#A) IN-RANGE 'a','z'",
+      "         $INPUT(#A,#A) = lower_case($INPUT(#A,#A))",
+      "      ENDIF",
+      "   ENDIF",
+      "ENDFOR"
+   ],
+   "Meta": {
+      "Type": "p4gl",
+      "Version": "1"
+   },
+   "Name": "MIXCASE",
+   "SecurityCategory": "",
+   "Type": "Procedural"
+}

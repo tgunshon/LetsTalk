@@ -1,0 +1,14 @@
+{
+   "AlphaValue": "",
+   "AlphaValueTranslationMaxLength": 0,
+   "AlphaValueTranslationMeaning": "",
+   "AlphaValueTranslationMode": "",
+   "Description": "No Carriage Return (Auto-tab) Toggle",
+   "Meta": {
+      "Type": "p4vv",
+      "Version": "1"
+   },
+   "Name": "&#@NO-CR",
+   "NumericDisplayCode": "3.0",
+   "NumericValue": 115
+}

@@ -1,0 +1,53 @@
+{
+   "Class": "{23299372-0D5E-42BB-85A5-2ACBDA715C3F}",
+   "ControlId": "PROIV_Browser",
+   "Description": "Event interface for PROIV Customized Browser",
+   "FileDescription": "PROIV Customized Browser (v1.0)",
+   "HelpFile": "C:\\PRO55\\Pro4Browser.hlp",
+   "ImplementationFile": "C:\\PRO55\\PRO4BR~1.OCX",
+   "IsJavaScript": "false",
+   "Meta": {
+      "Type": "p4ax",
+      "Version": "1"
+   },
+   "Name": "_DPro4BrowserEvents",
+   "ProgramId": "PROIV.Browser",
+   "PropertyMethods": [
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AboutBox",
+         "NumericDataType": 24,
+         "OSId": "-552",
+         "Prototype": "void _stdcall AboutBox(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Print",
+         "NumericDataType": 24,
+         "OSId": "2",
+         "Prototype": "void _stdcall Print(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "URL",
+         "NumericDataType": 8,
+         "OSId": "1",
+         "Prototype": "BSTR URL",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      }
+   ]
+}

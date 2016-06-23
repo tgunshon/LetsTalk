@@ -1,0 +1,1286 @@
+{
+   "Class": "{3B7C8860-D78F-101B-B9B5-04021C009402}",
+   "ControlId": "MS_Rich_Textbox",
+   "Description": "",
+   "FileDescription": "Microsoft Rich Textbox Control 6.0 (SP4) (v1.2)",
+   "HelpFile": "",
+   "ImplementationFile": "RICHTX32.OCX",
+   "IsJavaScript": "false",
+   "Meta": {
+      "Type": "p4ax",
+      "Version": "1"
+   },
+   "Name": "Microsoft Rich Textbox Control 6.0 (SP4)",
+   "ProgramId": "RICHTEXT.RichtextCtrl",
+   "PropertyMethods": [
+      {
+         "Description": "Occurs when the user presses and then releases a mouse button over an object.",
+         "HelpContext": "280119",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Click",
+         "NumericDataType": 24,
+         "OSId": "-600",
+         "Prototype": "void _stdcall Click(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user presses and releases a mouse button and then presses and releases it again over an object.",
+         "HelpContext": "280120",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DblClick",
+         "NumericDataType": 24,
+         "OSId": "-601",
+         "Prototype": "void _stdcall DblClick(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user presses a key while an object has the focus.",
+         "HelpContext": "280121",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "KeyDown",
+         "NumericDataType": 24,
+         "OSId": "-602",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "KeyCode",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 2,
+               "OSId": "2",
+               "StringDataType": "short"
+            }
+         ],
+         "Prototype": "void _stdcall KeyDown(short* KeyCode, short Shift);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user presses and releases an ANSI key.",
+         "HelpContext": "280123",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "KeyPress",
+         "NumericDataType": 24,
+         "OSId": "-603",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "KeyAscii",
+            "NumericDataType": 26,
+            "OSId": "1",
+            "StringDataType": "short*"
+         }],
+         "Prototype": "void _stdcall KeyPress(short* KeyAscii);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user releases a key while an object has the focus.",
+         "HelpContext": "280122",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "KeyUp",
+         "NumericDataType": 24,
+         "OSId": "-604",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "KeyCode",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 2,
+               "OSId": "2",
+               "StringDataType": "short"
+            }
+         ],
+         "Prototype": "void _stdcall KeyUp(short* KeyCode, short Shift);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user presses a mouse button.",
+         "HelpContext": "280124",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MouseDown",
+         "NumericDataType": 24,
+         "OSId": "-605",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Button",
+               "NumericDataType": 2,
+               "OSId": "1",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 2,
+               "OSId": "2",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "x",
+               "NumericDataType": 29,
+               "OSId": "3",
+               "StringDataType": "OLE_XPOS_PIXELS"
+            },
+            {
+               "IOType": "I",
+               "Name": "y",
+               "NumericDataType": 29,
+               "OSId": "4",
+               "StringDataType": "OLE_YPOS_PIXELS"
+            }
+         ],
+         "Prototype": "void _stdcall MouseDown(short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user moves the mouse.",
+         "HelpContext": "280125",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MouseMove",
+         "NumericDataType": 24,
+         "OSId": "-606",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Button",
+               "NumericDataType": 2,
+               "OSId": "1",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 2,
+               "OSId": "2",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "x",
+               "NumericDataType": 29,
+               "OSId": "3",
+               "StringDataType": "OLE_XPOS_PIXELS"
+            },
+            {
+               "IOType": "I",
+               "Name": "y",
+               "NumericDataType": 29,
+               "OSId": "4",
+               "StringDataType": "OLE_YPOS_PIXELS"
+            }
+         ],
+         "Prototype": "void _stdcall MouseMove(short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the user presses and releases a mouse button.",
+         "HelpContext": "280126",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MouseUp",
+         "NumericDataType": 24,
+         "OSId": "-607",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Button",
+               "NumericDataType": 2,
+               "OSId": "1",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 2,
+               "OSId": "2",
+               "StringDataType": "short"
+            },
+            {
+               "IOType": "I",
+               "Name": "x",
+               "NumericDataType": 29,
+               "OSId": "3",
+               "StringDataType": "OLE_XPOS_PIXELS"
+            },
+            {
+               "IOType": "I",
+               "Name": "y",
+               "NumericDataType": 29,
+               "OSId": "4",
+               "StringDataType": "OLE_YPOS_PIXELS"
+            }
+         ],
+         "Prototype": "void _stdcall MouseUp(short Button, short Shift, OLE_XPOS_PIXELS x, OLE_YPOS_PIXELS y);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Indicates that the contents of a control have changed.",
+         "HelpContext": "280118",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Change",
+         "NumericDataType": 24,
+         "OSId": "1",
+         "Prototype": "void _stdcall Change(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLEStartDrag event",
+         "HelpContext": "280189",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEStartDrag",
+         "NumericDataType": 24,
+         "OSId": "1550",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Data",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "DataObject**"
+            },
+            {
+               "IOType": "I",
+               "Name": "AllowedEffects",
+               "NumericDataType": 26,
+               "OSId": "2",
+               "StringDataType": "long*"
+            }
+         ],
+         "Prototype": "void _stdcall OLEStartDrag([in,out] DataObject** Data, [in,out] long* AllowedEffects);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLEGiveFeedback event",
+         "HelpContext": "280190",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEGiveFeedback",
+         "NumericDataType": 24,
+         "OSId": "1551",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Effect",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "long*"
+            },
+            {
+               "IOType": "I",
+               "Name": "DefaultCursors",
+               "NumericDataType": 26,
+               "OSId": "2",
+               "StringDataType": "boolean*"
+            }
+         ],
+         "Prototype": "void _stdcall OLEGiveFeedback([in,out] long* Effect, [in,out] boolean* DefaultCursors);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLESetData event",
+         "HelpContext": "280191",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLESetData",
+         "NumericDataType": 24,
+         "OSId": "1552",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Data",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "DataObject**"
+            },
+            {
+               "IOType": "I",
+               "Name": "DataFormat",
+               "NumericDataType": 26,
+               "OSId": "2",
+               "StringDataType": "short*"
+            }
+         ],
+         "Prototype": "void _stdcall OLESetData([in,out] DataObject** Data, [in,out] short* DataFormat);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLECompleteDrag event",
+         "HelpContext": "280192",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLECompleteDrag",
+         "NumericDataType": 24,
+         "OSId": "1553",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "Effect",
+            "NumericDataType": 26,
+            "OSId": "1",
+            "StringDataType": "long*"
+         }],
+         "Prototype": "void _stdcall OLECompleteDrag([in,out] long* Effect);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLEDragOver event",
+         "HelpContext": "280193",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEDragOver",
+         "NumericDataType": 24,
+         "OSId": "1554",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Data",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "DataObject**"
+            },
+            {
+               "IOType": "I",
+               "Name": "Effect",
+               "NumericDataType": 26,
+               "OSId": "2",
+               "StringDataType": "long*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Button",
+               "NumericDataType": 26,
+               "OSId": "3",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 26,
+               "OSId": "4",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "x",
+               "NumericDataType": 26,
+               "OSId": "5",
+               "StringDataType": "single*"
+            },
+            {
+               "IOType": "I",
+               "Name": "y",
+               "NumericDataType": 26,
+               "OSId": "6",
+               "StringDataType": "single*"
+            },
+            {
+               "IOType": "I",
+               "Name": "State",
+               "NumericDataType": 26,
+               "OSId": "7",
+               "StringDataType": "short*"
+            }
+         ],
+         "Prototype": "void _stdcall OLEDragOver([in,out] DataObject** Data, [in,out] long* Effect, [in,out] short* Button, [in,out] short* Shift, [in,out] single* x, [in,out] single* y, [in,out] short* State);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "OLEDragDrop event",
+         "HelpContext": "280194",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEDragDrop",
+         "NumericDataType": 24,
+         "OSId": "1555",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "Data",
+               "NumericDataType": 26,
+               "OSId": "1",
+               "StringDataType": "DataObject**"
+            },
+            {
+               "IOType": "I",
+               "Name": "Effect",
+               "NumericDataType": 26,
+               "OSId": "2",
+               "StringDataType": "long*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Button",
+               "NumericDataType": 26,
+               "OSId": "3",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "Shift",
+               "NumericDataType": 26,
+               "OSId": "4",
+               "StringDataType": "short*"
+            },
+            {
+               "IOType": "I",
+               "Name": "x",
+               "NumericDataType": 26,
+               "OSId": "5",
+               "StringDataType": "single*"
+            },
+            {
+               "IOType": "I",
+               "Name": "y",
+               "NumericDataType": 26,
+               "OSId": "6",
+               "StringDataType": "single*"
+            }
+         ],
+         "Prototype": "void _stdcall OLEDragDrop([in,out] DataObject** Data, [in,out] long* Effect, [in,out] short* Button, [in,out] short* Shift, [in,out] single* x, [in,out] single* y);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Occurs when the current selection of text in the RichTextBox control has changed or the insertion point has moved.",
+         "HelpContext": "280127",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelChange",
+         "NumericDataType": 24,
+         "OSId": "2",
+         "Prototype": "void _stdcall SelChange(void);",
+         "StringDataType": "void",
+         "Type": "Event"
+      },
+      {
+         "Description": "Forces a complete repaint of a control.",
+         "HelpContext": "280103",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Refresh",
+         "NumericDataType": 24,
+         "OSId": "-550",
+         "Prototype": "void _stdcall Refresh(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AboutBox",
+         "NumericDataType": 24,
+         "OSId": "-552",
+         "Prototype": "void _stdcall AboutBox(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Starts an OLE drag/drop event with the given control as the source.",
+         "HelpContext": "280155",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEDrag",
+         "NumericDataType": 24,
+         "OSId": "1552",
+         "Prototype": "void _stdcall OLEDrag(void);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns the number of the line containing a specified character position in a RichTextBox control.",
+         "HelpContext": "280102",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "GetLineFromChar",
+         "NumericDataType": 3,
+         "OSId": "33",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "lChar",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "long _stdcall GetLineFromChar([in] long lChar);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Searches the text in a RichTextBox control for a given string.",
+         "HelpContext": "280104",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Find",
+         "NumericDataType": 3,
+         "OSId": "34",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "bstrString",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "vStart",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            },
+            {
+               "IOType": "I",
+               "Name": "vEnd",
+               "NumericDataType": 12,
+               "OSId": "3",
+               "StringDataType": "VARIANT"
+            },
+            {
+               "IOType": "I",
+               "Name": "vOptions",
+               "NumericDataType": 12,
+               "OSId": "4",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "long _stdcall Find([in] BSTR bstrString, [in] VARIANT vStart, [in,optional] VARIANT vEnd, [in,optional] VARIANT vOptions);",
+         "StringDataType": "long",
+         "Type": "Method"
+      },
+      {
+         "Description": "Selects text in a RichTextBox control based on a set of specified characters.",
+         "HelpContext": "280105",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Span",
+         "NumericDataType": 24,
+         "OSId": "35",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "bstrCharacterSet",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "vForward",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            },
+            {
+               "IOType": "I",
+               "Name": "vNegate",
+               "NumericDataType": 12,
+               "OSId": "3",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "void _stdcall Span([in] BSTR bstrCharacterSet, [in] VARIANT vForward, [in,optional] VARIANT vNegate);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Moves the insertion point up to, but not including, the first character that is a member of the specified character set in a RichTextBox control.",
+         "HelpContext": "280106",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "UpTo",
+         "NumericDataType": 24,
+         "OSId": "36",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "bstrCharacterSet",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "vForward",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            },
+            {
+               "IOType": "I",
+               "Name": "vNegate",
+               "NumericDataType": 12,
+               "OSId": "3",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "void _stdcall UpTo([in] BSTR bstrCharacterSet, [in] VARIANT vForward, [in,optional] VARIANT vNegate);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Loads an .RTF file or text file into a RichTextBox control.",
+         "HelpContext": "280108",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "LoadFile",
+         "NumericDataType": 24,
+         "OSId": "37",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "bstrFilename",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "vFileType",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "void _stdcall LoadFile([in] BSTR bstrFilename, [in] VARIANT vFileType);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Saves the contents of a RichTextBox control to a file.",
+         "HelpContext": "280109",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SaveFile",
+         "NumericDataType": 24,
+         "OSId": "38",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "bstrFilename",
+               "NumericDataType": 8,
+               "OSId": "1",
+               "StringDataType": "BSTR"
+            },
+            {
+               "IOType": "I",
+               "Name": "vFlags",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "void _stdcall SaveFile([in] BSTR bstrFilename, [in] VARIANT vFlags);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Sends formatted text in a RichTextBox control to a device for printing.",
+         "HelpContext": "280110",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelPrint",
+         "NumericDataType": 24,
+         "OSId": "39",
+         "Parameters": [
+            {
+               "IOType": "I",
+               "Name": "lHDC",
+               "NumericDataType": 3,
+               "OSId": "1",
+               "StringDataType": "long"
+            },
+            {
+               "IOType": "I",
+               "Name": "vStartDoc",
+               "NumericDataType": 12,
+               "OSId": "2",
+               "StringDataType": "VARIANT"
+            }
+         ],
+         "Prototype": "void _stdcall SelPrint([in] long lHDC, [in] VARIANT vStartDoc);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "",
+         "HelpContext": "",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "UnusedSelPrint",
+         "NumericDataType": 24,
+         "OSId": "49",
+         "Parameters": [{
+            "IOType": "I",
+            "Name": "lHDC",
+            "NumericDataType": 3,
+            "OSId": "1",
+            "StringDataType": "long"
+         }],
+         "Prototype": "void _stdcall UnusedSelPrint([in] long lHDC);",
+         "StringDataType": "void",
+         "Type": "Method"
+      },
+      {
+         "Description": "Returns/sets the text of a RichTextBox control, including all .RTF code.",
+         "HelpContext": "280077",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "defTextRTF",
+         "NumericDataType": 8,
+         "OSId": "",
+         "Prototype": "BSTR _stdcall defTextRTF(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the background color of an object.",
+         "HelpContext": "280065",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "BackColor",
+         "NumericDataType": 29,
+         "OSId": "-501",
+         "Prototype": "OLE_COLOR _stdcall BackColor(void);",
+         "StringDataType": "OLE_COLOR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns a Font object.",
+         "HelpContext": "280089",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Font",
+         "NumericDataType": 26,
+         "OSId": "-512",
+         "Prototype": "IFontDisp* _stdcall Font(void);",
+         "StringDataType": "IFontDisp*",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines whether an object can respond to user-generated events.",
+         "HelpContext": "280066",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Enabled",
+         "NumericDataType": 11,
+         "OSId": "-514",
+         "Prototype": "boolean _stdcall Enabled(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns a handle to a control.",
+         "HelpContext": "280098",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Hwnd",
+         "NumericDataType": 29,
+         "OSId": "-515",
+         "Prototype": "OLE_HANDLE _stdcall Hwnd(void);",
+         "StringDataType": "OLE_HANDLE",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the text contained in an object.",
+         "HelpContext": "280068",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Text",
+         "NumericDataType": 8,
+         "OSId": "-517",
+         "Prototype": "BSTR _stdcall Text(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value indicating the type of mouse pointer displayed when the mouse is over the control at run time.",
+         "HelpContext": "280072",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MousePointer",
+         "NumericDataType": 29,
+         "OSId": "1",
+         "Prototype": "MousePointerConstants _stdcall MousePointer(void);",
+         "StringDataType": "MousePointerConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the text of a RichTextBox control, including all .RTF code.",
+         "HelpContext": "280077",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "TextRTF",
+         "NumericDataType": 8,
+         "OSId": "10",
+         "Prototype": "BSTR _stdcall TextRTF(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the text (in .RTF format) in the current selection of a RichTextBox control.",
+         "HelpContext": "280078",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelRTF",
+         "NumericDataType": 8,
+         "OSId": "11",
+         "Prototype": "BSTR _stdcall SelRTF(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value indicating whether there is a maximum number of characters a RichTextBox control can hold and, if so, specifies the maximum number of characters.",
+         "HelpContext": "280079",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MaxLength",
+         "NumericDataType": 3,
+         "OSId": "12",
+         "Prototype": "long _stdcall MaxLength(void);",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines the color of text in the RichTextBox control.",
+         "HelpContext": "280080",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelColor",
+         "NumericDataType": 12,
+         "OSId": "13",
+         "Prototype": "VARIANT _stdcall SelColor(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the font used to display the currently selected text or the character(s) immediately following the insertion point in the RichTextBox control.",
+         "HelpContext": "280081",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelFontName",
+         "NumericDataType": 12,
+         "OSId": "14",
+         "Prototype": "VARIANT _stdcall SelFontName(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that specifies the size of the font used to display text in a RichTextBox control.",
+         "HelpContext": "280082",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelFontSize",
+         "NumericDataType": 12,
+         "OSId": "15",
+         "Prototype": "VARIANT _stdcall SelFontSize(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/Sets whether this control can act as an OLE drag/drop source, and whether this process is started automatically or under programmatic control.",
+         "HelpContext": "280156",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEDragMode",
+         "NumericDataType": 29,
+         "OSId": "1550",
+         "Prototype": "OLEDragConstants _stdcall OLEDragMode(void);",
+         "StringDataType": "OLEDragConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/Sets whether this control can act as an OLE drop target.",
+         "HelpContext": "280157",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEDropMode",
+         "NumericDataType": 29,
+         "OSId": "1551",
+         "Prototype": "OLEDropConstants _stdcall OLEDropMode(void);",
+         "StringDataType": "OLEDropConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines whether text in the RichTextBox control appears on the baseline (normal), as a superscript above the baseline, or as a subscript below the baseline.",
+         "HelpContext": "280083",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelCharOffset",
+         "NumericDataType": 12,
+         "OSId": "16",
+         "Prototype": "VARIANT _stdcall SelCharOffset(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the distance between the left edge of the RichTextBox control and the left edge of the text that is selected or added at the current insertion point.",
+         "HelpContext": "280084",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelIndent",
+         "NumericDataType": 12,
+         "OSId": "17",
+         "Prototype": "VARIANT _stdcall SelIndent(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the distance between the left edge of the first line of text in the selected paragraph(s) (as specified by the SelIndent property) and the left edge of subsequent lines of text in the same paragraph(s).",
+         "HelpContext": "280085",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelHangingIndent",
+         "NumericDataType": 12,
+         "OSId": "18",
+         "Prototype": "VARIANT _stdcall SelHangingIndent(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the filename of the file loaded into the RichTextBox control at design time.",
+         "HelpContext": "280086",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "FileName",
+         "NumericDataType": 8,
+         "OSId": "19",
+         "Prototype": "BSTR _stdcall FileName(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that specifies if the selected item remains highlighted when a control loses focus.",
+         "HelpContext": "280067",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "HideSelection",
+         "NumericDataType": 11,
+         "OSId": "2",
+         "Prototype": "boolean _stdcall HideSelection(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the number of tabs in a RichTextBox control.  Used in conjunction with the SelTab Property.",
+         "HelpContext": "280087",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelTabCount",
+         "NumericDataType": 12,
+         "OSId": "20",
+         "Prototype": "VARIANT _stdcall SelTabCount(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the distance between the right edge of the RichTextBox control and the right edge of the text that is selected or added at the current insertion point.",
+         "HelpContext": "280088",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelRightIndent",
+         "NumericDataType": 12,
+         "OSId": "21",
+         "Prototype": "VARIANT _stdcall SelRightIndent(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value indicating whether the contents in a RichTextBox control can be edited.",
+         "HelpContext": "280090",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Locked",
+         "NumericDataType": 11,
+         "OSId": "22",
+         "Prototype": "boolean _stdcall Locked(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the border style for an object.",
+         "HelpContext": "280091",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "BorderStyle",
+         "NumericDataType": 29,
+         "OSId": "23",
+         "Prototype": "BorderStyleConstants _stdcall BorderStyle(void);",
+         "StringDataType": "BorderStyleConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/set the bold format of the currently selected text.",
+         "HelpContext": "280092",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelBold",
+         "NumericDataType": 12,
+         "OSId": "24",
+         "Prototype": "VARIANT _stdcall SelBold(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/set the italic format of the currently selected text.",
+         "HelpContext": "280093",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelItalic",
+         "NumericDataType": 12,
+         "OSId": "25",
+         "Prototype": "VARIANT _stdcall SelItalic(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/set the strikethru format of the currently selected text.",
+         "HelpContext": "280094",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelStrikeThru",
+         "NumericDataType": 12,
+         "OSId": "26",
+         "Prototype": "VARIANT _stdcall SelStrikeThru(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/set the underline format of the currently selected text.",
+         "HelpContext": "280095",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelUnderline",
+         "NumericDataType": 12,
+         "OSId": "27",
+         "Prototype": "VARIANT _stdcall SelUnderline(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that controls the alignment of the paragraphs in a RichTextBox control.",
+         "HelpContext": "280096",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelAlignment",
+         "NumericDataType": 12,
+         "OSId": "28",
+         "Prototype": "VARIANT _stdcall SelAlignment(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the paint style of a control at run time. ",
+         "HelpContext": "280097",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "Appearance",
+         "NumericDataType": 29,
+         "OSId": "29",
+         "Prototype": "AppearanceConstants _stdcall Appearance(void);",
+         "StringDataType": "AppearanceConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value indicating whether a RichTextBox control can accept and display multiple lines of text.",
+         "HelpContext": "280069",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MultiLine",
+         "NumericDataType": 11,
+         "OSId": "3",
+         "Prototype": "boolean _stdcall MultiLine(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns or sets the amount of indent used in a RichTextBox control when SelBullet is set to True.",
+         "HelpContext": "280099",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "BulletIndent",
+         "NumericDataType": 4,
+         "OSId": "30",
+         "Prototype": "single _stdcall BulletIndent(void);",
+         "StringDataType": "single",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines if a paragraph in the RichTextBox control containing the current selection or insertion point has the bullet style.",
+         "HelpContext": "280100",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelBullet",
+         "NumericDataType": 12,
+         "OSId": "31",
+         "Prototype": "VARIANT _stdcall SelBullet(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets the right margin used for textwrap, centering, etc.",
+         "HelpContext": "280101",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "RightMargin",
+         "NumericDataType": 4,
+         "OSId": "32",
+         "Prototype": "single _stdcall RightMargin(void);",
+         "StringDataType": "single",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value indicating whether a RichTextBox control has horizontal or vertical scroll bars.",
+         "HelpContext": "280070",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "ScrollBars",
+         "NumericDataType": 29,
+         "OSId": "4",
+         "Prototype": "ScrollBarsConstants _stdcall ScrollBars(void);",
+         "StringDataType": "ScrollBarsConstants",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the absolute tab positions of text in a RichTextBox control.  Used in conjunction with the SelTabCount Property.",
+         "HelpContext": "280107",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelTabs",
+         "NumericDataType": 12,
+         "OSId": "40",
+         "Prototype": "VARIANT _stdcall SelTabs([in] short sElement);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "The RichTextBox control enables you to add insertable objects to an RTF file. Insertable objects are represented by the OLEObject.",
+         "HelpContext": "280112",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "OLEObjects",
+         "NumericDataType": 26,
+         "OSId": "42",
+         "Prototype": "IOLEObjects* _stdcall OLEObjects(void);",
+         "StringDataType": "IOLEObjects*",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that indicating whether the selected object's verbs will be displayed in a popup menu when the right mouse button is clicked.",
+         "HelpContext": "280114",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "AutoVerbMenu",
+         "NumericDataType": 11,
+         "OSId": "43",
+         "Prototype": "boolean _stdcall AutoVerbMenu(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines if the selected text is protected against editing.",
+         "HelpContext": "280111",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelProtected",
+         "NumericDataType": 12,
+         "OSId": "48",
+         "Prototype": "VARIANT _stdcall SelProtected(void);",
+         "StringDataType": "VARIANT",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the number of characters selected.",
+         "HelpContext": "280071",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelLength",
+         "NumericDataType": 3,
+         "OSId": "5",
+         "Prototype": "long _stdcall SelLength(void);",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Sets a custom mouse icon.",
+         "HelpContext": "280073",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "MouseIcon",
+         "NumericDataType": 26,
+         "OSId": "6",
+         "Prototype": "IPictureDisp* _stdcall MouseIcon(void);",
+         "StringDataType": "IPictureDisp*",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets a value that determines whether scroll bars in the RichTextBox control are disabled.",
+         "HelpContext": "280074",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "DisableNoScroll",
+         "NumericDataType": 11,
+         "OSId": "7",
+         "Prototype": "boolean _stdcall DisableNoScroll(void);",
+         "StringDataType": "boolean",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the starting point of text selected; indicates the position of the insertion point if no text is selected.",
+         "HelpContext": "280075",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelStart",
+         "NumericDataType": 3,
+         "OSId": "8",
+         "Prototype": "long _stdcall SelStart(void);",
+         "StringDataType": "long",
+         "Type": "Property"
+      },
+      {
+         "Description": "Returns/sets the string containing the currently selected text; consists of a zero-length string if no characters are selected.",
+         "HelpContext": "280076",
+         "Id": 0,
+         "IsInactive": "false",
+         "Name": "SelText",
+         "NumericDataType": 8,
+         "OSId": "9",
+         "Prototype": "BSTR _stdcall SelText(void);",
+         "StringDataType": "BSTR",
+         "Type": "Property"
+      }
+   ]
+}

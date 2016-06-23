@@ -1,0 +1,53 @@
+{
+   "Analyst": "SYS NAME",
+   "BatchQueueId": "",
+   "BatchQueuePriority": "",
+   "Contents": [{
+      "CycleEndTag": "DefaultCycle",
+      "CycleEntryEvent": 1,
+      "CycleExitEvent": 0,
+      "CycleName": "DefaultCycle",
+      "CycleStartTag": "DefaultCycle",
+      "CycleType": "ManyTime Update",
+      "IsSortPass": "",
+      "LastSortFileSequence": 0,
+      "SortEvent": 0,
+      "Type": "Cycle"
+   }],
+   "ErrorFunction": "",
+   "Events": {"001": [
+      "// Resize the client area",
+      "Session.SetScreenSize(@#COM3,@#COM4)",
+      "",
+      "// Link to previous function",
+      "@LFUNCT = @PFUNCT"
+   ]},
+   "ExitFunction": "@DemoClientResize",
+   "FunctionEntryEvent": 0,
+   "FunctionExitEvent": 0,
+   "FunctionParameters": [],
+   "FunctionTitleForMenus": "",
+   "IsBlockFunctionExecution": "false",
+   "IsFunctionInProduction": "false",
+   "IsGlobal": "false",
+   "IsRestfulFunction": "false",
+   "IsSuppressReportUpdateMessage": "false",
+   "MenuIcon": "",
+   "Meta": {
+      "Type": "p4fn",
+      "Version": "1"
+   },
+   "MinimumSecurityLevel": 0,
+   "Name": "@DemoClientResizeUpdate",
+   "Password": "",
+   "SecurityCategory": "DEMO",
+   "SecurityFailureFunction": "",
+   "Title": "Client Resize",
+   "TitleForMenusTranslationMaximumLength": 0,
+   "TitleForMenusTranslationMeaningCode": "",
+   "TitleForMenusTranslationMode": "",
+   "TitleTranslationMaximumLength": 0,
+   "TitleTranslationMeaningCode": "",
+   "TitleTranslationMode": "",
+   "Type": "Update"
+}
